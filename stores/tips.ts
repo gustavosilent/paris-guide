@@ -26,9 +26,15 @@ export const useTipsStore = defineStore('tips', () => {
     const fetchTips = async () => {
         isLoading.value = true
         try {
-            const data = await $fetch<TipsResponse>(`/api/tips?lang=${language.value || 'ptbr'}`)
+            // Load tips from static JSON files (works with GitHub Pages)
+            const config = useRuntimeConfig()
+            const baseURL = config.app.baseURL
+            // Ensure proper path concatenation
+            const path = `${baseURL}data/tips-${language.value || 'ptbr'}.json`.replace('//', '/')
+            const data = await $fetch<TipsResponse>(path)
             if (data) {
-                tips.value = data.tips
+                // Filter to only show approved tips (matching the API behavior)
+                tips.value = data.tips.filter(t => t.status !== 'pending' && t.status !== 'rejected')
             }
         } catch (error) {
             console.error('Failed to fetch tips:', error)
@@ -78,18 +84,9 @@ export const useTipsStore = defineStore('tips', () => {
                 localStorage.setItem('votedTips', JSON.stringify([...votedTips.value]))
             }
 
-            try {
-                const { votes } = await $fetch<{ votes: number }>('/api/vote', {
-                    method: 'POST',
-                    body: { id, delta, lang: language.value }
-                })
-                tip.votes = votes
-            } catch (err) {
-                console.error('Vote failed', err)
-                tip.votes -= delta
-                if (delta === 1) votedTips.value.delete(id)
-                else votedTips.value.add(id)
-            }
+            // Voting API disabled for static GitHub Pages hosting
+            // The vote count is persisted locally only
+            // In a full deployment, you would add a backend service to handle votes
         }
     }
 

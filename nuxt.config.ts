@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/ui', '@pinia/nuxt'],
   compatibilityDate: '2024-11-01',
   devtools: { enabled: false },
-  ssr: false,
+  ssr: false,  // Client-side only for GitHub Pages static hosting
   experimental: {
     appManifest: false
   },

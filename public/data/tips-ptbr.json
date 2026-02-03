@@ -1,0 +1,3050 @@
+{
+  "tips": [
+    {
+      "id": "1",
+      "title": "A Água da Casa é Grátis",
+      "description": "Em Paris, você não precisa pagar por água mineral. Peça sempre uma **Carafe d'eau** (jarra de água) nos restaurantes. É lei: eles devem servir água da torneira gratuitamente, que é potável e geladinha.",
+      "category": "FOOD",
+      "votes": 1,
+      "highlights": [
+        {
+          "keyword": "Carafe d'eau",
+          "info": "Pronuncia-se 'caraf dô'. É a jarra de vidro com água da torneira."
+        }
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "2",
+      "title": "O Metrô e o Ticket T+",
+      "description": "Não jogue fora seu ticket do metrô até sair da estação! A fiscalização é frequente e a multa é alta (geralmente €35 ou mais). Mantenha o ticket validado com você.",
+      "category": "TRANSPORTATION",
+      "votes": 1,
+      "highlights": [
+        {
+          "keyword": "ticket validado",
+          "info": "O bilhetezinho branco pequeno. Guarde-o até passar a última catraca de saída."
+        }
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "3",
+      "title": "Bonjour é Obrigatório",
+      "description": "Entrar numa loja e não dizer **Bonjour** é considerado extremamente rude. O atendimento muda completamente se você cumprimentar o garçon primeiro.",
+      "category": "CULTURE",
+      "votes": 1,
+      "highlights": [
+        {
+          "keyword": "Bonjour",
+          "info": "Bom dia / Olá. Use 'Bonsoir' após as 18h."
+        }
+      ],
+      "status": "approved",
+      "email": "gutobp@gmail.com"
+    },
+    {
+      "id": "4",
+      "title": "Gorjeta (Pourboire)",
+      "description": "O serviço (15%) já está incluído na conta (**Service Compris**). Deixar gorjeta não é obrigatório como no Brasil ou EUA, mas deixar alguns centavos ou 1-2 euros é gentil se o serviço foi bom.",
+      "category": "FOOD",
+      "votes": 1,
+      "highlights": [],
+      "status": "approved"
+    },
+    {
+      "id": "5",
+      "title": "Horário de Jantar",
+      "description": "Franceses jantam tarde, mas os restaurantes têm horários rígidos. O almoço é das 12h às 14h e o jantar das 19h30 às 22h. Fora desses horários, procure lugares com placa **Service Continu**.",
+      "category": "FOOD",
+      "votes": 1,
+      "highlights": [
+        {
+          "keyword": "Service Continu",
+          "info": "Serve comida o dia todo, sem pausa à tarde."
+        }
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "6",
+      "title": "Escada Rolante",
+      "description": "No metrô e lojas: fique sempre à direita se estiver parado. A esquerda é livre para quem está com pressa (e eles sempre estão).",
+      "category": "TRANSPORTATION",
+      "votes": 1,
+      "highlights": [],
+      "status": "approved"
+    },
+    {
+      "id": "7",
+      "title": "Golpe do Anel de Ouro",
+      "description": "Se alguém \"achar\" um anel de ouro no chão e te oferecer, ignore. É um golpe clássico para pedir dinheiro depois. Apenas diga 'Non' e continue andando.",
+      "category": "SAFETY",
+      "votes": 1,
+      "highlights": [],
+      "status": "approved"
+    },
+    {
+      "id": "8",
+      "title": "Banheiros Públicos (Sanisettes)",
+      "description": "Existem banheiros automáticos gratuitos nas ruas. Espere a pessoa sair e a porta fechar para o ciclo de limpeza terminar antes de entrar.",
+      "category": "CITY",
+      "votes": 1,
+      "highlights": [
+        {
+          "keyword": "ciclo de limpeza",
+          "info": "O banheiro se auto-higieniza após cada uso. Demora cerca de 1 min."
+        }
+      ],
+      "status": "approved"
+    },
+    {
+      "title": "Restaurante Chines",
+      "description": "Venha conhecer o bairro **13éme**, a famosa chinatown de Paris. Procure por deliciosos **Ramens** e massas **Biang Biang**",
+      "category": "FOOD",
+      "email": "gutobp@gmail.com",
+      "id": "12d77385-4196-4d03-b841-7ef53440da50",
+      "votes": 1,
+      "highlights": [
+        {
+          "keyword": "Biang Biang",
+          "info": "Uma massa única, aberta a mão, com quase 2 metros."
+        }
+      ],
+      "status": "approved"
+    },
+    {
+      "title": "Chinatown de Paris",
+      "description": "Aqui temos uma linda chinatown com muitos murais de graffiti gigantes, então venha preparado para caminhar e se surpreender.",
+      "category": "CITY",
+      "email": "gutobp@gmail.com",
+      "highlights": [
+        {
+          "keyword": "graffiti gigantes",
+          "info": "Murais pintados em vários prédios de artistas de todo mundo"
+        },
+        {
+          "keyword": "chinatown",
+          "info": "Também conhecido como bairro 13éme"
+        }
+      ],
+      "id": "7414d212-875e-4b30-8169-2431b8ac5658",
+      "votes": 1,
+      "status": "approved"
+    },
+    {
+      "id": "c1bbf9a5-d147-4017-8afb-98a5515cda3a",
+      "title": "Horário de Almoço Rigoroso",
+      "description": "Franceses almoçam entre 12h e 14h. Muitos restaurantes fecham a cozinha às 14h em ponto. Se perder o horário, procure lugares com placa **Service Continu** ou padarias (**Boulangeries**).",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Service Continu",
+          "info": "Serve refeições o dia todo, sem pausa."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "aef16152-1829-46ce-b7f8-f00c492f7558",
+      "title": "O Pão no Restaurante",
+      "description": "A cesta de pães (**corbeille de pain**) geralmente é gratuita e reposta à vontade, assim como a água. Não é couvert pago como no Brasil. Use para limpar o molho do prato no final.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "21c49fdc-eeb9-4f2c-ac4a-817731596301",
+      "title": "Menu Formule Midi",
+      "description": "No almoço, procure pela **Formule Midi**. É um menu com preço fixo que inclui Entrada + Prato ou Prato + Sobremesa (ou os três). É muito mais barato que pedir '**à la carte**'.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Formule Midi",
+          "info": "Combo de almoço com preço promocional."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "717679ee-60f3-4660-bc12-2db2b3f0bd91",
+      "title": "Café Gourmand",
+      "description": "Sobremesa indecisa? Peça um **Café Gourmand**. É um café expresso servido com 3 ou 4 miniaturas das sobremesas da casa. Perfeito para provar um pouco de tudo.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Café Gourmand",
+          "info": "Café acompanhado de mini doces."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "25efdf78-0462-4b7e-84d2-dfcce0f88d97",
+      "title": "Steak Tartare",
+      "description": "Um clássico francês: carne crua (bovina) picada na ponta da faca e temperada. Se não gosta de carne crua, não peça! Geralmente vem com batatas fritas.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "d80b3a95-9c9a-4b9b-a383-d90c790581a3",
+      "title": "Cozimento da Carne (La Cuisson)",
+      "description": "Os franceses comem carne mal passada. Se pedir 'ao ponto' (**à point**), virá rosada. Se gosta bem passada, peça **bien cuit**, mas o chef pode te olhar torto.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "boulangerie",
+          "info": "Padaria"
+        },
+        {
+          "keyword": "bien cuit",
+          "info": "Bem passado"
+        },
+        {
+          "keyword": "saignant",
+          "info": "Mal passado (sangrando)"
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "a7441576-88f0-4d11-8ab4-2da82b90e082",
+      "title": "Bagunça Organizada nos Bistrôs",
+      "description": "As mesas nos bistrôs parisienses são minúsculas e coladas umas nas outras. É normal ouvir a conversa do vizinho e até puxar papo. Faz parte do charme da cidade.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "5cfab1b7-092b-4027-8588-4a57ae61e49d",
+      "title": "Garçom não é seu amigo",
+      "description": "O serviço francês é formal e eficiente, não necessariamente 'simpático' nos padrões brasileiros. Não espere sorrisos constantes. Chame levantando a mão e dizendo '**S'il vous plaît**'.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "S'il vous plaît",
+          "info": "Por favor. Essencial para chamar o garçom."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "fafa4adc-01b8-4b5a-90de-bdae4951c21e",
+      "title": "Queijos depois do Prato",
+      "description": "A tábua de queijos (**Plateau de Fromages**) é servida *antes* da sobremesa e *depois* do prato principal, ou substituindo a sobremesa. Nunca como aperitivo.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "5de8f169-d822-4071-ae0c-0b5189f1d382",
+      "title": "Vinho da Casa (Pichet)",
+      "description": "Não precisa pedir a garrafa mais cara. O **Pichet de Vin** (jarra de vinho da casa) de 25cl ou 50cl costuma ser barato e decente para acompanhar o almoço.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Pichet",
+          "info": "Jarra de vinho, mais barata que garrafa."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "0c7e097a-ed92-441c-83fe-65cdca83e5e8",
+      "title": "Croissant é no Café da Manhã",
+      "description": "Croissants são típicos do café da manhã. Muitos restaurantes não servem croissant como sobremesa no almoço ou jantar. Compre na **Boulangerie**.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "9402f0a9-12df-4516-8419-063d2d5d8016",
+      "title": "Jambon-Beurre",
+      "description": "O almoço mais barato e clássico de Paris: meia baguete, manteiga de qualidade e presunto cozido. Vende em qualquer padaria e é delicioso.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Jambon-Beurre",
+          "info": "Sanduíche clássico de presunto e manteiga."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "5f69de97-b9fe-4dc1-9676-dce1a7ad9d57",
+      "title": "Happy Hour (L'Afterwork)",
+      "description": "Muitos bares têm Happy Hour (geralmente das 17h às 20h) com cervejas (**Pintes**) e coquetéis pela metade do preço. Procure as placas na calçada.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Pinte",
+          "info": "Copo de 500ml de cerveja."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "d37aaa1b-418c-42fd-a43d-66d31e3b3d4f",
+      "title": "Escargots são deliciosos",
+      "description": "Não tenha nojo! Eles têm gosto de manteiga, alho e salsinha. A textura é parecida com um cogumelo firme. Vale a pena provar como entrada.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "6f8252ce-2fcb-4ecc-8b1a-dff9e17a223c",
+      "title": "Sopa de Cebola (Soupe à l'Oignon)",
+      "description": "O conforto em forma de comida. Caldo de cebola caramelizada, coberto com pão e muito queijo gratinado (**Gratinée**). Perfeita para o inverno.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "6e41879f-e646-4188-88ce-345d4d52f53e",
+      "title": "Macarons: Pierre Hermé vs Ladurée",
+      "description": "A eterna briga. **Ladurée** é o clássico, tradicional. **Pierre Hermé** é o moderno, com sabores exóticos (como **Ispahan**: rosa, lichia e framboesa). Prove os dois.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "dc76465d-7345-4cb9-b406-769951f5031b",
+      "title": "Crepes de Rua",
+      "description": "Os melhores e mais baratos lanches. Um crepe de Nutella ou de queijo comprado numa janelinha em **Montmartre** ou no **Quartier Latin** salva o dia.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "ef3b35ba-32e1-4e94-a18c-450f47016277",
+      "title": "Chocolate Quente do Angelina",
+      "description": "No salão de chá **Angelina**, o chocolate quente (**L'Africain**) é tão espesso que você quase precisa mastigar. Uma bomba calórica inesquecível.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Angelina",
+          "info": "Famosa casa de chá na Rue de Rivoli."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "fb0f0cd1-cfed-417f-a5a8-cb5dff6002ab",
+      "title": "Falafel no Marais",
+      "description": "Na **Rue des Rosiers**, o **L'As du Fallafel** tem filas enormes pelo melhor sanduíche de falafel da cidade. É comida de rua, barato e farto.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Marais",
+          "info": "Bairro histórico e judaico."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "93e1a232-993f-41db-bd94-cbed77df5a3e",
+      "title": "Raclette e Fondue",
+      "description": "Pratos de inverno. **Raclette** é queijo derretido raspado sobre batatas e frios. **Fondue** é a panela de queijo derretido. Vá ao **Le Refuge des Fondus** para uma experiência divertida.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "52f5a777-bc0d-47cb-9bf7-08af985cebb5",
+      "title": "Berthillon: O Sorvete da Ilha",
+      "description": "Na **Île Saint-Louis**, a sorveteria **Berthillon** é lendária. Experimente o **sorbet** de morango silvestre (**fraise des bois**) ou caramelo salgado.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "0a577b0d-f2d0-49dd-92ec-176f13a07e65",
+      "title": "Mercados de Rua (Marchés)",
+      "description": "Visite um mercado de rua (como o **Marché Bastille** ou Raspail) para comprar frutas frescas, queijos e frango assado (**poulet rôti**) para um piquenique.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Marché",
+          "info": "Feira livre com produtos frescos."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "892c223c-d761-4486-b9fa-a1106259f775",
+      "title": "Piquenique no Sena",
+      "description": "No verão, faça como os locais: Compre vinho, queijo e baguete e sente-se à beira do **Sena** ou no **Canal Saint-Martin** para ver o pôr do sol.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "e1b308e3-262e-41b3-b57d-edec4ca4dc82",
+      "title": "Reservas são Essenciais",
+      "description": "Para jantar em restaurantes populares, reservar com dias de antecedência é obrigatório. Use apps como **TheFork** ou o site do próprio restaurante.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "TheFork",
+          "info": "App popular para reservas e descontos."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "e9a4fc00-1cac-4d64-9eb1-42817dec957f",
+      "title": "Ostras (Huîtres)",
+      "description": "Os franceses amam ostras, especialmente no Natal. Elas são servidas cruas, com limão e vinagre de chalotas, pão e manteiga.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "18691f78-4dfe-46f0-bac9-b24458fa7200",
+      "title": "Foie Gras",
+      "description": "Polêmico, mas uma iguaria nacional. Fígado de pato ou ganso gordo. Geralmente servido em **terrine** com torrradas e geleia de figo.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "358d540e-3331-4137-8bc4-137e79436e9a",
+      "title": "Confit de Canard",
+      "description": "Coxa de pato cozida lentamente na própria gordura até ficar desmanchando. Um prato clássico, seguro e delicioso do sudoeste da França.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "efff6ea0-b8a0-4829-b02d-d05306af769c",
+      "title": "Boeuf Bourguignon",
+      "description": "Carne cozida no vinho tinto com cenouras, cebolas e cogumelos por horas. O sabor da Borgonha em um prato.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "d0a56154-eec5-4c07-b05a-6f3bd46c9380",
+      "title": "Galette vs Crêpe",
+      "description": "Na Bretanha e Paris: **Galette** é salgada, feita de trigo sarraceno (escura). **Crêpe** é doce, de trigo branco. Peça uma **Galette Complète** (ovo, presunto, queijo).",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "3233ec9b-9f0e-433c-ad4d-d950c2e075d3",
+      "title": "Mostarda de Dijon",
+      "description": "A mostarda francesa é forte! Vai limpar seus seios nasais. Ela fica na mesa para acompanhar carnes, assim como o sal e a pimenta.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "aafc0446-ac1b-4f7d-99dc-9120399fc6f4",
+      "title": "Café da Manhã Típico",
+      "description": "É leve: Um café, um suco de laranja e uma **viennoiserie** (croissant ou **pain au chocolat**). Não espere ovos e bacon, a menos que peça 'Brunch'.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "viennoiserie",
+          "info": "Massa folhada doce (croissants, etc)."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "85baa861-4eaf-4311-b55c-8a3384b764ec",
+      "title": "Supermercados: Monoprix e Franprix",
+      "description": "**Monoprix** é o supermercado 'chique' com roupas e comida. **Franprix** e **Carrefour City** são menores para compras rápidas. Ótimo para comprar lembranças gastronômicas.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "635eb39c-e768-4e14-a58b-fa1b8b31158f",
+      "title": "Chucrute (Choucroute)",
+      "description": "Prato da Alsácia muito comum em **Brasseries**. Repolho fermentado com várias salsichas, toucinho e batatas. Para quem tem muita fome.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "a8cfbb5a-9b0e-447f-8a20-e8bcd37bd888",
+      "title": "Kebab em Paris",
+      "description": "O '**Grec**' (Kebab) é o fast-food favorito dos jovens. Carne no espeto, batata frita e molho branco (**sauce blanche**) dentro do pão. Barato e sustenta.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "0ead8d7b-7f31-4d53-978d-94b0e4ce85da",
+      "title": "Profiteroles",
+      "description": "Carolinas recheadas de sorvete de baunilha e cobertas com calda quente de chocolate. Uma sobremesa que agrada a todos.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "1970ec92-8d41-41db-bb30-31b67af8158d",
+      "title": "Tarte Tatin",
+      "description": "A torta de maçã invertida. As maçãs são caramelizadas no fundo da forma e a massa vai por cima. Servida quente com creme de leite fresco (**crème fraîche**).",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "0ee32cca-839b-4bce-8bdd-c89660e3e060",
+      "title": "Baba au Rhum",
+      "description": "Um bolinho esponjoso encharcado em xarope de rum. Muitas vezes servido com **chantilly**. Cuidado: tem álcool de verdade!",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "e7ade09e-5c47-4ea3-8ee0-56b89d0a690e",
+      "title": "Não peça Ketchup",
+      "description": "Pedir ketchup para colocar num prato refinado pode ofender o chef. Use os molhos que vêm com o prato. Ketchup é aceito apenas com batatas fritas (**frites**).",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "f93ab309-b586-4d01-8974-baac2d02c4ee",
+      "title": "Le Bouillon",
+      "description": "Restaurantes históricos (como **Bouillon Chartier** ou **Pigalle**) que servem clássicos franceses a preços muito baixos em salões **Belle Époque**. Vá cedo para evitar filas.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Bouillon",
+          "info": "Cantina tradicional e barata."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "e9252381-201a-4e88-abb7-089f27f0ffdd",
+      "title": "Croque-Monsieur",
+      "description": "O misto-quente francês, mas gratinado com **bechamel** e queijo por fora. Se colocar um ovo estalado em cima, vira **Croque-Madame**.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "9002304d-9c45-4078-82ed-57dcfcb0f594",
+      "title": "Mille-Feuille (Mil-folhas)",
+      "description": "Três camadas de massa folhada intercaladas com creme de confeiteiro. No topo, açúcar de confeiteiro ou glacê. Um teste de habilidade para comer sem desmontar.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "c8ebf903-4ee6-4b0f-8b14-11ef3791bcb9",
+      "title": "Éclair",
+      "description": "A famosa 'bomba'. Massa **choux** recheada com creme (chocolate, café ou baunilha) e coberta com glacê. As de caramelo salgado são divinas.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "a231a7c7-4820-427f-b000-5d87001c0a46",
+      "title": "Almoço no Jardim",
+      "description": "Compre uma salada ou sanduíche no **Paul** ou **Pret a Manger** e coma nas cadeiras verdes do Jardim de **Tuileries** ou Luxemburgo como um verdadeiro parisiense.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "ca11fee2-0a6e-4fbd-b4e7-ee4b75fbfa1c",
+      "title": "Comer com a mão?",
+      "description": "Pão, sim. Frango assado e batata frita, às vezes. Pizza? De garfo e faca na maioria dos lugares. Hambúrguer? Mão, mas cuidado com a bagunça.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "e057bddf-cfb7-4995-a52d-a7b229ef2007",
+      "title": "Cédulas de 500 Euros",
+      "description": "Muitos comércios pequenos e restaurantes não aceitam notas de 200 ou 500 euros. Tente andar com notas menores (10, 20, 50).",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "5ccdd706-6017-43c1-a49a-ae53a22cbf56",
+      "title": "Fumeurs (Fumantes)",
+      "description": "É proibido fumar dentro de restaurantes, mas os terraços (mesas na calçada) são permitidos. Se você odeia cigarro, sente-se na parte interna (**salle**).",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "7ecce8bd-ba10-4d57-b40a-c15b778fb3c9",
+      "title": "Gorjeta no Cartão",
+      "description": "As máquinas de cartão na França geralmente não têm opção de adicionar gorjeta. Se quiser deixar, deixe moedas de euro na mesa.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "b5c518c6-1073-46f5-ba70-2145dcbd9482",
+      "title": "Comer Tarde da Noite",
+      "description": "Após as 22h, é difícil achar cozinha aberta. Procure os '**Au Pied de Cochon**' (aberto 24h) ou redes de fast food se bater a fome na madrugada.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "a4556891-fbb5-403a-9d04-f917b4e023c9",
+      "title": "O Ticket T+",
+      "description": "O bilhete básico do metrô serve para metrô, ônibus, tramway e **RER** (**zona 1**). Não jogue fora até sair da estação! A fiscalização (**controleurs**) é frequente e a multa é alta se você não tiver o bilhete validado.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Ticket T+",
+          "info": "Bilhete avulso básico."
+        },
+        {
+          "keyword": "controleurs",
+          "info": "Fiscais do metrô."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "637ba6bf-0bbb-4193-a753-93983455a1e2",
+      "title": "Navigo Découverte",
+      "description": "Ficará uma semana (segunda a domingo)? Faça o **Navigo Découverte**. Custa ~30€ e dá acesso ilimitado a todas as zonas (inclusive Disney e Aeroportos). Precisa de uma foto 3x4.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Navigo",
+          "info": "Passe de transporte semanal/mensal."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "116ca165-6f82-4853-8d90-fa01f66f7bc1",
+      "title": "Escada Rolante: Direita!",
+      "description": "Regra de ouro: Fique parado à direita. A esquerda é livre para quem tem pressa. Se bloquear a esquerda, você ouvirá um '**Pardon**!' irritado ou será empurrado.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "b9369d33-3990-45d1-81d3-9544988b1ac7",
+      "title": "RER B: Aeroporto CDG",
+      "description": "O **RER** B é o trem que liga o aeroporto **Charles de Gaulle** ao centro. Cuidado: existem trens 'diretos' (expressos) e '**omnibus**' (param em todas). Pegue o direto para ganhar tempo e segurança.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "RER",
+          "info": "Trem suburbano rápido."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "3dc66635-dcb7-4ef6-928c-231f06907d16",
+      "title": "Metrô fecha às 1h",
+      "description": "O metrô não é 24h. Durante a semana fecha por volta de 1h da manhã, e sextas/sábados às 2h. Depois disso, só táxi, Uber ou ônibus noturno (**Noctilien**).",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Noctilien",
+          "info": "Ônibus noturno de Paris."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "63c6e2f4-3b6e-4f51-bf17-0e2616b740d6",
+      "title": "Citymapper é o melhor app",
+      "description": "Esqueça o Google Maps para transporte público. O Citymapper é muito mais preciso em Paris, indicando inclusive qual vagão pegar para sair de frente para a escada.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "322398ca-9a19-406d-b70f-5f0e45755beb",
+      "title": "Cuidado com a Porta Manual",
+      "description": "Muitas linhas de metrô antigas não abrem a porta sozinhas. Você precisa levantar a alavanca prateada ou apertar o botão verde quando o trem parar.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "1692a0de-cd21-4f8c-97ab-c2e8aa31af7d",
+      "title": "Zona 1 vs Zonas 1-5",
+      "description": "Paris turística (**Torre Eiffel**, **Louvre**, **Montmartre**) é toda **Zona 1**. Você só precisa de bilhete especial (**Zona 4** ou 5) para **Versalhes**, Disney ou Aeroportos.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "8bc215a6-e32c-4846-860d-4c18ddab8beb",
+      "title": "Velib' (Bicicletas)",
+      "description": "As bicicletas públicas são ótimas. As verdes são mecânicas, as azuis são elétricas (mais caras). Baixe o app oficial para ver estações livres.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Velib'",
+          "info": "Sistema público de bicicletas."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "5b75003b-58e9-4bc6-a00d-35b771558daf",
+      "title": "Táxi tem preço fixo do Aeroporto",
+      "description": "Do **CDG** para Paris (**Rive Droite**/Gauche) o táxi tem preço tabelado (aprox. 55€-62€). Não aceite taxímetros ou motoristas te abordando no saguão (são piratas). Vá para a fila oficial.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "df10ea2e-f398-486f-9775-99f5ab698a44",
+      "title": "Ande a pé (Flâner)",
+      "description": "Paris é pequena (10km de largura). As estações de metrô são muito próximas (500m). Muitas vezes é mais rápido e bonito ir a pé do que descer no subsolo.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Flâner",
+          "info": "Passear sem rumo observando a cidade."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "0086c313-d4e3-4820-9113-ee3a7ed3750b",
+      "title": "Cuidado no Metrô Lotado",
+      "description": "A Linha 1 (amarela) passa pelos principais pontos e é alvo frequente de batedores de carteira (pickpockets), especialmente na estação **Châtelet** e **Franklin D. Roosevelt**.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "26bbf040-5110-44ba-a1bd-2305bc6fb1b0",
+      "title": "Navigo Easy",
+      "description": "Se não for fazer o semanal, compre o cartão **Navigo Easy** (2€) e carregue com pacotes de 10 viagens (carnet) digitalmente. Sai mais barato que comprar bilhetes de papel.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "56d1d54e-d035-4ad7-b83e-ddfedcab0651",
+      "title": "Ônibus 69: O Turístico Barato",
+      "description": "A linha de ônibus 69 atravessa Paris passando pela Torre, **Invalides**, **Louvre**, **Bastille** e **Père Lachaise**. É um tour turístico pelo preço de uma passagem comum.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "ab1d8066-8600-41a7-b2ce-7ac5611a22ac",
+      "title": "Roissybus",
+      "description": "Ônibus direto do Aeroporto **CDG** para a região da Ópera (centro). Mais barato que táxi e mais confortável que o **RER** (sem escadas), desde que seu hotel seja perto da Ópera.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "f8f4a514-7931-4ef3-a5c3-7240de39c836",
+      "title": "Orlyval é caro",
+      "description": "Do aeroporto de **Orly**, o trem **Orlyval** é rápido mas tem tarifa especial cara. O **Orlybus** é uma alternativa mais barata que te deixa na estação **Denfert-Rochereau**.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "90f51c93-1e65-4e2b-9505-f233ca55905e",
+      "title": "Bateaux-Mouches",
+      "description": "O barco pelo **Sena** não é só para turistas. É o transporte mais bonito da cidade. O **Batobus** funciona como hop-on hop-off fluvial, parando nos principais museus.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Batobus",
+          "info": "Barco circular turístico."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "779ffc41-d61f-437c-855a-2df9effb064a",
+      "title": "Greves (Grèves)",
+      "description": "Transporte em Paris pode parar por greves. Baixe o app **Bonjour RATP** ou Citymapper para ver alertas em tempo real. Sempre tenha um plano B (Uber/Bolt ou pernas).",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "e675d34c-d8d5-44db-9f06-f6c45fa8008c",
+      "title": "Uber e G7",
+      "description": "Uber funciona bem, mas os táxis (G7) podem usar corredores de ônibus, o que os torna mais rápidos no trânsito pesado. Baixe o app G7.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "G7",
+          "info": "Maior frota de táxis de Paris."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "4cde4766-4bba-47c3-8021-fbb01caa3e76",
+      "title": "Valide seu Navigo",
+      "description": "Mesmo com o passe ilimitado, você deve validar o cartão na catraca roxa toda vez que entrar no ônibus ou metrô. Se o fiscal pegar sem validar, dá multa.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "fe71d9de-90e2-496b-ab58-37aa90a987bc",
+      "title": "Estação Châtelet-Les Halles",
+      "description": "É a maior estação subterrânea do mundo. Um labirinto. Evite trocar de linha lá se puder, você pode andar 15 minutos lá dentro só para mudar de plataforma.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "7ae976c5-44ae-49f3-bfed-a264c2c8ff37",
+      "title": "Montmartre Funicular",
+      "description": "Para subir até a **Sacré-Cœur**, use um bilhete de metrô comum no Funicular se não quiser subir os 300 degraus a pé. Vale o mesmo ticket.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "cdecf936-063d-47f0-82ea-5fdf9135ff88",
+      "title": "Patinetes (Trottinettes)",
+      "description": "Patinetes elétricos de aluguel (Lime, etc.) foram banidos de Paris em 2023. Você não vai achá-los nas ruas. Alugue uma bicicleta.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "dd8cb650-36ba-4800-a2a8-25bf0a847bc5",
+      "title": "Saídas (Sortie)",
+      "description": "Estações grandes têm várias saídas numeradas. Olhe no mapa da plataforma qual '**Sortie**' é a mais perto do seu destino. Sair na rua errada pode te custar 10 min de caminhada.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Sortie",
+          "info": "Saída."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "4fd5abeb-dc8d-4369-9325-d82ace69048d",
+      "title": "Metrô 6: A Vista",
+      "description": "A Linha 6 é parcialmente aérea. Entre as estações **Bir-Hakeim** e **Passy**, ela cruza o **Sena** com uma vista espetacular da **Torre Eiffel**. Prepare a câmera.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "cca5fe85-0064-4345-a429-58f34c93bbdf",
+      "title": "Banheiros nas Estações",
+      "description": "Raros e geralmente pagos ou fechados. Não conte com banheiros no metrô. Use antes de sair do museu/restaurante ou procure os públicos na rua.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "8d71fbaf-6571-46be-bd62-76d019c7505f",
+      "title": "Linha 14: A Mais Rápida",
+      "description": "Automática (sem motorista), moderna e rápida. Cruza a cidade de norte a sul em minutos. Ótima para fugir do trânsito ou de linhas mais lentas.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "30c1343e-343f-4922-bb9f-b61ac091d705",
+      "title": "Ceder lugar",
+      "description": "Assentos perto das portas são prioritários ('**Priorité**'). Levante-se imediatamente se entrar idoso, grávida ou pessoa com deficiência. É lei e educação.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "f161169f-0e8c-47eb-907c-68c22ef34625",
+      "title": "Portões Anti-Fraude",
+      "description": "Algumas saídas do **RER** exigem o bilhete para abrir o portão. Nunca jogue o bilhete fora até estar na rua. No metrô, geralmente é só empurrar o portão de saída.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "2d6aaec1-33b4-4aa5-a1e3-dcf9d9999723",
+      "title": "Paris Visite vale a pena?",
+      "description": "Geralmente não. O **Navigo Découverte** ou **Navigo Easy** costumam ser mais baratos que o passe turístico '**Paris Visite**', a menos que você queira os descontos em atrações (que são poucos).",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "db13e97c-e4d1-4e9c-9909-46e900d3d11e",
+      "title": "Trem para Versalhes",
+      "description": "Pegue o **RER** C na direção **Versailles** **Château** **Rive Gauche**. Cuidado: o **RER** C se bifurca. Olhe nas telas se o trem vai para esse destino final.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "e8b775f3-06e2-4966-9243-92a53c0a923a",
+      "title": "Eurostar",
+      "description": "O trem para Londres sai da **Gare du Nord**. Check-in exige antecedência (90min) por causa da imigração (Brexit). Não chegue em cima da hora como num trem comum.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "36b9112c-133f-49d3-b7a1-a487c3fe709f",
+      "title": "Bolt e FreeNow",
+      "description": "Alternativas ao Uber. Baixe os apps Bolt e FreeNow (antigo Kapten) para comparar preços. Às vezes têm promoções agressivas.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "ddab7f76-3430-42d9-a9d6-8b64c15e18ed",
+      "title": "Autolib (Carros Elétricos)",
+      "description": "O sistema antigo de carros elétricos acabou, mas existem serviços de 'car sharing' como **Mobilib'**. Porém, dirigir em Paris é estressante. Evite.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "82cf5b09-3f99-44cc-be25-94f18a0725eb",
+      "title": "Faixa de Ônibus",
+      "description": "Se estiver de bicicleta, você pode usar a maioria das faixas de ônibus (compartilhadas). Mas cuidado com os taxistas e ônibus reais, eles são agressivos.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "8c818251-3b1f-40e1-8e29-ed059da86005",
+      "title": "Sinais de Pedestre",
+      "description": "O 'bonequinho vermelho' é meramente sugestivo para os parisienses, que atravessam se não vier carro. Mas cuidado: multas são raras, mas atropelamentos não.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "0eab18b7-2982-4725-984f-2b0d3a597479",
+      "title": "Gare de Lyon vs Gare du Nord",
+      "description": "Paris tem várias estações de trem (Gares), não uma central. Verifique no bilhete: **Gare de Lyon** (sul/sudeste), **Gare du Nord** (norte/Londres), **Montparnasse** (oeste), etc.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "0177973e-de4c-4080-b2d1-b5dd0027b709",
+      "title": "Bagagem no Metrô",
+      "description": "Estações antigas têm muitas escadas e poucas escadas rolantes/elevadores. Se estiver com malas pesadas, prefira táxi ou ônibus para evitar carregar peso nos degraus.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "65b59584-ee72-41af-9cc2-5d0a31f165be",
+      "title": "Horário de Pico (Heure de Pointe)",
+      "description": "Evite o metrô (especialmente Linha 1 e 13) e **RER** A entre 8h-9h30 e 17h30-19h. Você será sardinha em lata.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "a8faed27-4552-4c55-9df7-6097e9a28d12",
+      "title": "Controles de Segurança",
+      "description": "Em grandes estações de trem, podem haver revistas aleatórias de bagagem (**Plano Vigipirate**). Colabore com a segurança.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "55286afb-d774-47aa-8f4b-312e63027c2c",
+      "title": "Tickets digitais (Android/iOS)",
+      "description": "Você pode comprar tickets T+ diretamente pelo celular (Samsung/Android tem suporte melhor, iPhone começou a ter). O celular vira o bilhete na catraca (NFC).",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "9027518e-88aa-47a3-816e-dd1974343d67",
+      "title": "Disney Paris (RER A)",
+      "description": "Para a Disney, pegue o **RER** A direção **Marne-la-Vallée** – **Chessy**. A estação final fica na porta dos parques. **Zona 5** (bilhete caro).",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "ff2c7bc3-9913-4c1e-858c-d6acd2b6e613",
+      "title": "Apps de Navegação Offline",
+      "description": "Baixe o mapa de Paris no Google Maps para usar offline, mas o Citymapper precisa de dados para horários reais.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "aa5ca769-b5ae-4884-9876-a0abf165b011",
+      "title": "Bike Lanes (Pistes Cyclables)",
+      "description": "Paris está cheia de ciclovias novas (**Rue de Rivoli** parece uma autoestrada de bikes). Cuidado ao andar a pé para não invadir a pista dos ciclistas.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "e958a912-1deb-4902-8114-1a9204c98d2a",
+      "title": "Estação Arts et Métiers",
+      "description": "A estação de metrô mais bonita (Linha 11). Parece um submarino de cobre, inspirada em Júlio Verne. Vale a visita só pelo design.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "1acf1a2a-1a86-47a7-8266-0c79dd7c8d98",
+      "title": "Voi, Lime e Dott (Bicicletas)",
+      "description": "Além do Velib, existem bicicletas elétricas 'dockless' (sem estação) dessas marcas. São mais caras que o Velib, mas mais fáceis de achar e estacionar.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "7d385d81-bace-462b-8e91-0ce2c8441fed",
+      "title": "A Regra do 'Bonjour'",
+      "description": "Ao entrar em qualquer loja ou estabelecimento, diga '**Bonjour**' (ou '**Bonsoir**') alto e claro. Ignorar isso é considerado rude e você será tratado com frieza. É a chave mágica da simpatia.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Bonjour",
+          "info": "Bom dia / Olá."
+        },
+        {
+          "keyword": "Bonsoir",
+          "info": "Boa noite (após 18h)."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "8a50003f-346c-4c2f-9fa8-c13e850e2480",
+      "title": "Museus Gratuitos no 1º Domingo",
+      "description": "Muitos museus nacionais (como **Orsay**, **Orangerie**, **Pompidou**) são gratuitos no primeiro domingo do mês. O **Louvre** também, mas apenas na baixa temporada e com reserva obrigatória.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "38a18732-29bc-4135-a204-1ce5acd3be81",
+      "title": "Mona Lisa: Vá Cedo ou Tarde",
+      "description": "A sala da Mona Lisa no **Louvre** é um caos. Vá assim que o museu abrir (9h) ou nas noturnas (sextas até 21h45) para vê-la com menos empurra-empurra.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "258a2bac-7024-42b7-b63b-0f1a622b90fa",
+      "title": "Musée Carnavalet",
+      "description": "O museu da história de Paris. Fica no **Marais**, é gratuito (o acervo permanente) e pouco lotado. Perfeito para entender a evolução da cidade.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Carnavalet",
+          "info": "Museu histórico de Paris."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "c17e3e4e-9b1b-4ab2-9e81-aae0ac464618",
+      "title": "Gorjeta não é obrigatória",
+      "description": "Reforçando a cultura: garçons recebem salário fixo. Não se sinta pressionado a dar 20% como nos EUA. Arredonde a conta se quiser.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "135385b9-24d1-428a-8a75-1e42b6ef4de3",
+      "title": "Não fale alto",
+      "description": "Franceses falam baixo em restaurantes e transportes. Brasileiros costumam falar alto. Tente baixar o volume para não atrair olhares de reprovação.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "200f1ba3-4770-43e1-a458-fcb9add0d123",
+      "title": "Paris Museum Pass",
+      "description": "Se planeja ir a muitos museus em 2 ou 4 dias, o PMP compensa financeiramente e (às vezes) fura fila. Inclui **Louvre**, **Arco do Triunfo**, **Versalhes**, etc.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Museum Pass",
+          "info": "Passe turístico de museus."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "ddbf4d74-f445-4da1-a5d3-2d96922a5e73",
+      "title": "Livraria Shakespeare and Company",
+      "description": "Histórica livraria inglesa em frente à **Notre-Dame**. Frequentada por Hemingway. É proibido tirar fotos lá dentro, respeite a regra.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "017904a0-1bd4-438f-b100-bb6d997c647c",
+      "title": "Jornadas do Patrimônio",
+      "description": "Em setembro (**Journées du Patrimoine**), prédios governamentais fechados ao público (como o Palácio do Eliseu ou o Senado) abrem as portas gratuitamente. Filas longas, mas vale.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "8dae7de4-a4bc-433b-aab3-24b14fc156d0",
+      "title": "Cemitério Père Lachaise",
+      "description": "Não é mórbido, é um parque museu a céu aberto. Veja os túmulos de Jim Morrison, Oscar Wilde, Edith Piaf e Chopin. Mapa na entrada ajuda.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "a70c9d1b-b83c-4f75-94d3-7244c93c6408",
+      "title": "Ópera Garnier",
+      "description": "O 'Fantasma da Ópera' se passa aqui. O interior é mais impressionante que **Versalhes** para muitos. Visite durante o dia ou assista a um ballet.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Garnier",
+          "info": "Ópera antiga e luxuosa."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "46deae0a-3668-4cfc-b329-463305229276",
+      "title": "Saint-Chapelle: Vitrais",
+      "description": "Escondida no Palácio da Justiça, tem os vitrais mais bonitos do mundo. Vá num dia de sol para ver a luz explodir em cores lá dentro.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Saint-Chapelle",
+          "info": "Capela gótica real."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "6ff64aa4-2579-4733-bdda-d0ccdf38990c",
+      "title": "Moulin Rouge",
+      "description": "Turístico? Sim. Caro? Sim. Mas é história. O show de can-can é profissional e o ambiente é icônico. Reserve com meses de antecedência.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "b7e338de-c39b-4f05-a51c-989807d073e1",
+      "title": "Bouquinistes",
+      "description": "Os vendedores de livros e cartazes antigos nas caixas verdes à beira do **Sena**. Patrimônio da UNESCO. Ótimo para comprar posters vintage baratos.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Bouquinistes",
+          "info": "Livreiros do Sena."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "bedd6ac8-2d35-46c4-bc5f-eda96943775f",
+      "title": "Nuit Blanche",
+      "description": "Evento anual (outubro ou junho) onde a arte toma a cidade a noite toda. Instalações, shows e museus abertos de madrugada gratuitamente.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "54aff767-0807-4263-8154-e4a8c003f83a",
+      "title": "Catedral de Notre-Dame",
+      "description": "Reabrindo após o incêndio. O exterior já está restaurado. O **Marco Zero** das estradas da França fica no chão da praça em frente.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Marco Zero",
+          "info": "Ponto quilométrico zero."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "75d206dd-69c3-4f46-b003-0815b19c0c12",
+      "title": "Musée de l'Orangerie",
+      "description": "Lar das '**Ninféias**' (**Nymphéas**) gigantes de Monet. Duas salas ovais desenhadas pelo próprio pintor para exibir as obras. Zen e imperdível.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "01ab2741-fe30-4e5c-9c50-503adade129b",
+      "title": "Inglês em Paris",
+      "description": "Os parisienses, especialmente os jovens, falam inglês bem. O mito de que 'não respondem' vem de quem não diz '**Bonjour**' antes. Comece em francês, troque depois.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "ea5dd83b-5b57-4471-af48-40b86aef0161",
+      "title": "Pardon e Excusez-moi",
+      "description": "Esbarrou em alguém? Diga '**Pardon**'. Quer pedir licença ou informação? '**Excusez-moi**'. Polidez é a moeda social.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "2ddade6a-e0c8-4616-b4a7-28d0cb74518d",
+      "title": "Catacumbas: Reserve Antes",
+      "description": "O ossuário subterrâneo. A fila é quilométrica. Sem ingresso comprado online com hora marcada, você praticamente não entra. Claustrofóbicos, evitem.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "ef423aee-4ac7-461b-a80a-0ffe5c09ca99",
+      "title": "Centre Pompidou",
+      "description": "Arte moderna e contemporânea. A arquitetura de tubos coloridos por fora é polêmica. A vista do último andar é incrível.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Beaubourg",
+          "info": "Outro nome para o Pompidou."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "94160bf1-fa78-41ea-8127-83bec3cc5486",
+      "title": "Musée Rodin",
+      "description": "Onde fica 'O Pensador'. O jardim de esculturas é maravilhoso para passear. Fica perto dos **Invalides**.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "b45d1632-0881-4664-b98f-a986606a0d84",
+      "title": "Não toque nas obras",
+      "description": "Parece óbvio, mas alarmes tocam se você chegar muito perto. Mantenha distância respeitosa em museus.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "46c50cdd-9384-4d1c-80b2-af3a7b929a5f",
+      "title": "Vestimenta para Igreja",
+      "description": "Ombros cobertos não são estritamente exigidos como na Itália, mas evite shorts muito curtos ou decotes profundos ao visitar igrejas ativas.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "fcc2c673-4ce8-49bf-972e-c0049d505b0d",
+      "title": "Palais de Tokyo",
+      "description": "Centro de arte contemporânea 'cool', aberto até meia-noite. Ótimo para ver exposições estranhas e beber no bar trendy.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "9f74dfff-5dc5-4561-b76d-3dc49b3363c0",
+      "title": "Le Marais no Domingo",
+      "description": "Enquanto Paris dorme no domingo, o **Marais** ferve. Lojas abertas, ruas cheias. O centro da vida judaica e LGBTQ+.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "ce29bc4f-7caa-498d-b856-98b939f9af96",
+      "title": "Petit Palais",
+      "description": "Museu de Belas Artes da cidade. Gratuito, lindo e tem um jardim interno com café que é um oásis de paz perto da **Champs-Élysées**.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "697a3093-fce7-4ff8-af0e-b64016d3f93c",
+      "title": "Bicentenário de Napoleão",
+      "description": "O túmulo dele fica no Dôme des **Invalides**. É grandioso. Museu do Exército (Musée de l'Armée) no mesmo complexo é excelente para história de guerras.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "1dc296ff-14cc-43a8-917a-2f0f0d43aa83",
+      "title": "Cinema em Paris",
+      "description": "Paris tem a maior densidade de cinemas do mundo. Vá a um cinema de arte no **Quartier Latin** ou ao Grand Rex (maior da Europa).",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "e399a880-9b0c-4100-9393-ab50806bd905",
+      "title": "Louis Vuitton Foundation",
+      "description": "Prédio futurista de Frank Gehry no **Bois de Boulogne**. Vale pela arquitetura e exposições temporárias de peso (como Basquiat/Warhol).",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "9a02f62b-f7d9-401f-a6d9-d42f18ae1ec6",
+      "title": "Fête de la Musique",
+      "description": "21 de Junho. Músicos amadores e profissionais tomam todas as esquinas de Paris. A cidade vira uma festa gratuita a céu aberto.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "9c2ebe9f-48f3-49b7-8e22-9fcb509dcdbd",
+      "title": "Moda e Estilo",
+      "description": "Não precisa usar boina e listras (clichê de turista). O estilo parisiense é discreto, cores neutras, 'chic sem esforço'. Tênis branco é o calçado oficial.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "a0cf3769-f4a5-4cca-9670-e5bfe552ab59",
+      "title": "Galeries Lafayette (Cúpula)",
+      "description": "Entre nem que seja para olhar o teto. A cúpula de vitrais é deslumbrante. No Natal, a árvore gigante suspensa é atração turística.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "cbb9a392-4682-4efb-9568-18b44e0e1292",
+      "title": "Fazer 'Bise'",
+      "description": "Ao cumprimentar amigos, franceses dão dois beijinhos (bise). Em Paris, começa pela direita. Mas como turista, aperto de mão é seguro.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "bec083cb-3fd6-4761-a17a-9079699f72d4",
+      "title": "Toilette Gratuita em Museus",
+      "description": "Dica de ouro: Você pode entrar no hall de muitos museus (como o **Petit Palais**) só para usar o banheiro limpo e grátis sem pagar ingresso.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "f3f891bd-2857-4c98-8957-237db172ff28",
+      "title": "Conciergerie",
+      "description": "Onde Maria Antonieta ficou presa antes da guilhotina. Hoje usa realidade aumentada (HistoPad) para mostrar como era na Revolução. Muito imersivo.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "bf91a24c-2d54-4764-a499-b70222541484",
+      "title": "Arco do Triunfo: Vista",
+      "description": "Para muitos, a melhor vista de Paris, porque inclui a **Torre Eiffel**. Tem elevador, mas só para deficientes/idosos, prepare as pernas.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "9ca92651-d88f-4158-aaf9-2d5434b1429e",
+      "title": "Rua Crémieux",
+      "description": "Rua colorida famosa no Instagram. Moradores odeiam o barulho. Se for, seja silencioso e respeitoso. Não suba nos degraus das casas.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "d42015d5-4e6b-4a01-baed-1a42914be005",
+      "title": "Golpe da Pulseirinha (Sacré-Cœur)",
+      "description": "Na escadaria de **Montmartre**, homens tentarão amarrar uma pulseira no seu braço 'na amizade' e depois exigirão pagamento agressivamente. Mantenha os braços cruzados ou nos bolsos e ignore.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "27946347-1613-45d4-8a3d-73f859f308d2",
+      "title": "Abaixo-Assinado Falso",
+      "description": "Jovens (geralmente meninas) com pranchetas pedindo assinatura para 'ajudar surdos-mudos'. É distração para baterem sua carteira ou pedir doação forçada. Não assine.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Petição",
+          "info": "Golpe clássico perto da **Torre Eiffel**."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "70f92ab2-4d3f-47bd-aaa1-6172183c5ddb",
+      "title": "Número de Emergência: 112",
+      "description": "O número universal de emergência na Europa é 112 (polícia, ambulância, bombeiros). Funciona de qualquer celular, mesmo bloqueado.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "112",
+          "info": "Número de emergência europeu."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "85daab1f-7bb5-4645-96ab-1ff704a1ff3e",
+      "title": "Carteira no Bolso da Frente",
+      "description": "Carteira e celular no bolso de trás da calça são presentes para batedores de carteira. Use bolsos frontais, doleiras ou bolsas com zíper cruzadas no corpo.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "1eb1b1c1-31ea-45c1-9597-afc2f31afd73",
+      "title": "Não Deixe Celular na Mesa",
+      "description": "Em cafés com mesas na calçada, nunca deixe o celular sobre a mesa. Ladrões passam correndo ou colocam um papel por cima para distrair e levar o aparelho.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "ce4de7cd-0c61-453e-8f61-a5655239ac5d",
+      "title": "Áreas a Evitar à Noite",
+      "description": "A região ao norte da **Gare du Nord** e **Gare de l'Est** (Barbès, La Chapelle) pode ser intimidante e insegura tarde da noite. Evite hospedar-se ou andar sozinho por lá de madrugada.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "516ff8a5-f8bb-4c01-a62e-03932d8f9d8e",
+      "title": "Golpe do Jogo dos Copos",
+      "description": "Evite aglomerações em torno de jogo de apostas na rua (com cascas de noz ou copos). É tudo armação. Quem ganha é cúmplice, você só vai perder dinheiro.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "b74e8f7a-f6d9-4b7f-84b9-d8e2da3d0f24",
+      "title": "Falsos Policiais",
+      "description": "Se alguém à paisana pedir para ver sua carteira/dinheiro para 'verificar notas falsas', é golpe. Policiais reais nunca pedem para ver seu dinheiro.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "8b22df7c-f06b-4802-bca0-6bbd076342ee",
+      "title": "Farmácias de Plantão",
+      "description": "Farmácias têm uma cruz verde neon. Se estiver fechada à noite, procure na porta o endereço da 'Pharmacie de Garde' (plantão) mais próxima.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Pharmacie",
+          "info": "Farmácia (Cruz Verde)."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "3635f0fe-2280-409b-8838-829278fff4aa",
+      "title": "Água da Torneira é Segura e Boa",
+      "description": "A água de Paris é de alta qualidade. Pode beber da torneira do hotel ou das fontes públicas (Wallace) na rua sem medo. Economize dinheiro.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "5506c9d4-d70a-4037-8ac6-a592cb172267",
+      "title": "Golpe do Tuk-Tuk",
+      "description": "Tuk-tuks perto da **Torre Eiffel** cobram preços exorbitantes. Combine o preço CLARAMENTE antes de entrar, ou prefira andar a pé/metrô.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "dff1a1ec-31fd-4c1a-9127-7d4f494637a4",
+      "title": "Cuidado no RER B",
+      "description": "No trem vindo do aeroporto, mantenha suas malas perto de você. Ladrões entram correndo nas paradas antes de Paris e puxam malas perto da porta antes dela fechar.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "baa1bc9a-110c-4693-88e2-5a4e5cefecba",
+      "title": "Manifestações (Manif)",
+      "description": "Protestos são comuns em Paris. Geralmente pacíficos, mas podem ter gás lacrimogêneo. Se ver multidão polícial, mude o caminho. Sábados são dias tradicionais de protesto.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "62396351-69a0-4423-9f3e-351d51487dab",
+      "title": "Seguro Viagem Obrigatório",
+      "description": "Para entrar na Europa (Schengen), é obrigatório ter seguro viagem com cobertura de 30 mil euros. A imigração pode pedir para ver a apólice.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "fc67b43c-b0f6-490f-b65b-f3f12d527399",
+      "title": "Golpe do Ingresso 'Fura-Fila'",
+      "description": "Não compre ingressos de cambistas na rua pro **Louvre** ou **Torre Eiffel**. São quase sempre falsos ou usados. Compre somente nos sites oficiais ou bilheteria.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "3dd30182-58aa-4b0e-831d-2f7d621d5bca",
+      "title": "Canicule (Onda de calor)",
+      "description": "No verão, Paris pode chegar a 40°C. Muitos hotéis antigos e metrôs NÃO têm ar condicionado. Verifique isso ao reservar se for viajar em Agosto.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Canicule",
+          "info": "Onda de calor extremo."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "87c0cc05-b517-4189-a6f8-088d74e71ea9",
+      "title": "Extintores de Incêndio",
+      "description": "Bombeiros de Paris (Sapeurs-Pompiers) são militares. Em caso de incêndio ou acidente médico grave, ligue 18.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "18",
+          "info": "Bombeiros (Incêndio/Médico)."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "b5836cc3-513a-468a-a16c-0e1acbe7e7c0",
+      "title": "Polícia (17)",
+      "description": "Para chamar a polícia em emergência (roubo, agressão), o número direto na França é 17.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "17",
+          "info": "Polícia."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "fcdc98c0-de07-458f-b29a-9f8f51de4f63",
+      "title": "Samu (15)",
+      "description": "Para emergências médicas urgentes (infarto, etc), o número é 15. Eles enviam médico ou ambulância.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "15",
+          "info": "SAMU (Emergência Médica)."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "a6b493f9-93fa-401c-af66-474c8a84606d",
+      "title": "Cigarros Falsos",
+      "description": "Vendedores de rua oferecendo 'Marlboro' barato (Vendeurs a la sauvette). É tabaco falsificado de péssima qualidade e perigoso. Não compre.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "1f5f7599-e1f0-4082-a331-ddbc6cf3e33f",
+      "title": "Não Alimente os Pombos",
+      "description": "É proibido alimentar pombos em Paris. Há multas para isso, pois são considerados pragas sanitárias.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "2c966fb0-b7fc-4dc2-becb-332144452031",
+      "title": "Ratos em Parques",
+      "description": "Sim, Paris tem ratos. Você pode vê-los em parques à noite ou nos trilhos do metrô. Eles geralmente fogem de humanos, não entre em pânico.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "65b9b84a-b353-4fab-942d-91816e5d1ea4",
+      "title": "Terrorismo (Vigipirate)",
+      "description": "A França tem alerta de terrorismo constante. É normal ver militares armados patrulhando pontos turísticos. Sinta-se seguro, não ameaçado.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Vigipirate",
+          "info": "Plano de segurança nacional."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "d1dc76ec-8fb9-4c5f-8af2-7d5985db28a3",
+      "title": "Bolsas no Chão",
+      "description": "Em restaurantes chiques ou bistrôs, evite colocar a bolsa no chão onde alguém pode puxar por trás da cadeira. Mantenha no colo ou use ganchos se houver.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "13e55cb1-7d27-49a2-b3b2-c36bed805fa3",
+      "title": "Táxi Falso no Aeroporto",
+      "description": "Recuse qualquer um que te aborde no saguão dizendo 'Táxi?'. Siga as placas 'Taxis' até a fila externa oficial. O golpe pode custar o dobro do preço.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "90c1b0cd-cc89-49cf-9650-4ceab4171f07",
+      "title": "Ciclistas Agressivos",
+      "description": "Ao atravessar a rua, olhe também para as ciclovias. Ciclistas parisienses andam rápido e nem sempre param no sinal vermelho.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "a2c35078-f8b4-45bc-bdce-4a4b2abde96c",
+      "title": "Golpe da Flor",
+      "description": "Alguém te oferece uma rosa 'de presente'. Se você pegar, vão exigir dinheiro e fazer cena. Não pegue nada de estranhos.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "4f440dd5-86a3-41d1-a79f-c9c2327ca0ad",
+      "title": "Hospital Americano",
+      "description": "Se precisar de médico que fala inglês (e tiver bom seguro, pois é caro), o American Hospital of Paris em Neuilly-sur-Seine é referência.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "f88c4cd2-d8c2-417d-81a5-2c261a3e5fea",
+      "title": "Perdeu o Passaporte?",
+      "description": "Consulado Brasileiro em Paris. Tenha sempre cópia física e digital do passaporte guardada separadamente para facilitar a emissão de emergência.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "62a02556-5af7-4ab9-ad85-dc77449fe861",
+      "title": "Banho em Chafariz",
+      "description": "É proibido entrar nas fontes e chafarizes (como no Trocadero), mesmo no calor. A polícia pode multar.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "fa4945af-bcb7-4251-ab7b-e9ab7af3d97e",
+      "title": "Barulhos Noturnos",
+      "description": "Paris é barulhenta. Se tiver sono leve, traga protetores auriculares, pois as sirenes e caminhões de lixo de madrugada são frequentes.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "2b02be61-8e5c-448c-b03b-857c26e2ca84",
+      "title": "Cadeados na Ponte",
+      "description": "Não coloque cadeados nas pontes (como Pont des Arts). Eles pesam e destroem a estrutura. A prefeitura remove regularmente.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "db9a3d07-f9b2-4ab6-8765-45aeea5b7e1a",
+      "title": "Desfibriladores (DAE)",
+      "description": "Existem muitos desfibriladores automáticos externos em estações e prédios públicos. Procure o sinal verde 'DAE'.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "8878c974-f115-4a14-8669-30c49ff8c344",
+      "title": "Golpe da Foto",
+      "description": "Alguém se oferece para tirar foto sua e do seu grupo com sua câmera, e sai correndo com ela. Peça para outros turistas, não para 'locais' prestativos demais.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "7df38389-25e5-4599-a917-7e9b7922277c",
+      "title": "Metrô Lotado e Mochila",
+      "description": "Tire a mochila das costas no metrô lotado. Além de atrapalhar os outros, nas costas você não sente se abrirem o zíper.",
+      "category": "SAFETY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "eda5db91-fabe-4f75-9840-4ffae9bf3739",
+      "title": "Jardim de Luxemburgo",
+      "description": "O jardim favorito dos parisienses. Ótimo para correr, ler um livro nas cadeiras de metal verde ou ver os barquinhos no lago. Fica perto do Panteão.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "d9535eb1-7a37-4a12-8a5a-a1b775c2026e",
+      "title": "Passages Couverts",
+      "description": "Galerias comerciais do século 19 com teto de vidro. Perfeitas para dias de chuva. Visite a Galerie Vivienne (chic) ou Passage des Panoramas (gastronômica).",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Passages Couverts",
+          "info": "Galerias históricas cobertas."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "7bb85951-7cc4-47ce-a1a0-1dc6eba929a2",
+      "title": "Montmartre além da Sacré-Cœur",
+      "description": "Fuja da multidão em frente à igreja. Explore a Rue des Abbesses e a Place Dalida. Visite a vinha de **Montmartre** (Clos **Montmartre**), a única dentro de Paris.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "3b8105f5-7838-48d3-9741-0d18d7333eb6",
+      "title": "Coulée Verte",
+      "description": "Um jardim suspenso construído sobre antigos trilhos de trem. Foi a inspiração para o High Line de NY. Começa perto da **Bastille** e é um passeio verde e tranquilo.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Coulée Verte",
+          "info": "Parque linear suspenso."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "be9e22ab-d97d-493d-b798-d72c456f954f",
+      "title": "Torre Montparnasse",
+      "description": "Dizem que tem a melhor vista de Paris porque é o único lugar de onde você não vê a feia **Torre Montparnasse**. A vista do terraço no 56º andar é espetacular.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "938a8bbb-c937-461e-afea-f07eb06ccf4d",
+      "title": "Canal Saint-Martin",
+      "description": "Área hipster de Paris. Ótimo para piqueniques, jogar petanca e tomar cerveja na beira da água. Cenário do filme Amélie Poulain (consegue achar as pedras que ela jogava?).",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "0198b4f4-9983-4440-8781-21fecf860880",
+      "title": "Île de la Cité vs Île Saint-Louis",
+      "description": "A Cité tem a **Notre-Dame** e turistas. A Saint-Louis é residencial, calma, com sorvetes **Berthillon** e mansões do século 17. Atravesse a ponte e sinta a diferença.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "0f377908-5a51-4176-9d5b-8a85575e6b0b",
+      "title": "Rue Crémieux (Respeito)",
+      "description": "A rua mais colorida de Paris. É linda, mas residencial. Não faça barulho, não suba nas escadas das casas e não bloqueie a passagem dos moradores. Seja discreto.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "8d2d905d-3a4d-4ad2-9935-aa39d5e71f9f",
+      "title": "Le Marias (Bairro)",
+      "description": "Bairro histórico que não foi destruído por Haussmann. Ruas medievais estreitas, mansões (Hôtels Particuliers), lojas de design e a melhor cena gay da cidade.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Marais",
+          "info": "Bairro histórico preservado."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "f5fc6a85-dc7c-4932-afbb-f9914effb7a9",
+      "title": "Parc des Buttes-Chaumont",
+      "description": "O parque mais íngreme e dramático. Tem caverna, cachoeira, ponte suspensa e um templo no topo de um penhasco. Poucos turistas, muitos locais.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "90e28726-33b0-4465-bf63-0071910f2a21",
+      "title": "Champs-Élysées é pega-turista?",
+      "description": "Um pouco. É cheia, cara e tem muitas lojas de cadeia internacional. Vale a pena ver o **Arco do Triunfo**, mas para compras autênticas, prefira o **Marais** ou Saint-Germain.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "3289cc91-a140-4260-a6ad-ea75733d7dbc",
+      "title": "Quartier Latin",
+      "description": "O bairro dos estudantes (Sorbonne). Ruas antigas, livrarias, cinemas de arte e muitos bares baratos na Rue Mouffetard. Atmosfera intelectual e boêmia.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Quartier Latin",
+          "info": "Bairro universitário e histórico."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "36ca3067-de39-4aa5-ba70-d862566a58fd",
+      "title": "Rue de Rivoli",
+      "description": "Famosa pelas lojas de souvenir e fast fashion. Caminhe por ela sob as arcadas. A ciclovia aqui é movimentadíssima.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "0ee9fa01-33c0-4f66-a79a-04f541650324",
+      "title": "Place des Vosges",
+      "description": "A praça mais antiga e simétrica de Paris, no **Marais**. Sente-se na grama nos dias de sol. Victor Hugo morou aqui (a casa dele é um museu gratuito).",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "e8321e1a-3e26-416f-bfb6-19ce5e782e45",
+      "title": "Palais Royal",
+      "description": "Perto do **Louvre**, mas tranquilo. O pátio tem as colunas listradas de Buren (Colonnes de Buren) ótimas para fotos, e um jardim cercado chiquérrimo.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "a3c159b8-384f-4b33-91e6-1a4a7a7031aa",
+      "title": "Ponte Alexandre III",
+      "description": "A ponte mais extravagante e dourada. Liga os **Invalides** ao **Grand Palais**. O pôr do sol aqui é cartão postal garantido.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "46e1ffe6-8bcb-40b8-9ff8-6d995eb3367c",
+      "title": "La Défense",
+      "description": "A Paris moderna dos arranha-céus. Vale a visita para ver o **Grande Arche** (cubo gigante alinhado com o **Arco do Triunfo**) e o shopping 4 Temps.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "c5767e47-0619-494c-99d2-c0fa99223366",
+      "title": "Jardin des Tuileries",
+      "description": "Entre o **Louvre** e a **Concorde**. Poeirento no verão, mas clássico. Sente-se ao redor das fontes e observe a roda gigante ao fundo.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "eff32b77-ab09-4a97-a1cf-b68e6e309bdc",
+      "title": "Grande Mosquée de Paris",
+      "description": "Um oásis mouro no bairro latino. Tem um pátio lindo, um salão de chá com doces árabes deliciosos e um banho turco (Hammam).",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "030bbc33-07e4-4401-a848-a013a2eff961",
+      "title": "Rue Montorgueil",
+      "description": "Rua de pedestres cheia de queijarias, peixarias, padarias e cafés. Uma das ruas de mercado mais charmosas e vivas do centro (Les Halles).",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "16cedad7-8b32-416b-83aa-5a10dba6481b",
+      "title": "Parc de la Villette",
+      "description": "Parque cultural gigante. Tem a **Cité des Sciences**, a Philharmonie e cinema ao ar livre no verão. Longe do centro clássico.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "24e1c9c6-ee1c-4558-bcb7-bd6792a2a049",
+      "title": "Cerejeiras em Flor",
+      "description": "Em abril, Paris fica rosa. Os melhores lugares para ver cerejeiras (Sakura) são o Jardin des Plantes e ao redor da **Notre-Dame**.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "22e27e18-c8f8-433b-8f0a-86a76ea8a7ae",
+      "title": "Mercado de Pulgas (Saint-Ouen)",
+      "description": "O maior mercado de antiguidades do mundo. Fica no norte (Porte de Clignancourt). Tem de tudo, de móveis Louis XV a roupas vintage baratas.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Puces",
+          "info": "Mercado das Pulgas."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "fc5f6640-813b-4aa0-9750-8a5e827c5b04",
+      "title": "Bibliothèque Nationale (Richelieu)",
+      "description": "A sala oval de leitura (**Salle** Ovale) é de cair o queixo. Aberta ao público recentemente para visitação. Um templo dos livros.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "b834bb4d-f6ba-4cbe-a5f3-a86c7a6c8f40",
+      "title": "Arènes de Lutèce",
+      "description": "Ruínas de um anfiteatro romano escondidas num parque no **Quartier Latin**. Paris tem história romana! Ótimo para crianças jogarem bola.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "4ec1e24f-28cd-43f8-b97c-4d494eda0e8e",
+      "title": "Rue Denoyez (Street Art)",
+      "description": "Em **Belleville**, uma rua legalizada para graffiti. A arte muda toda semana. A região é vibrante e multicultural.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "1722d68b-ef42-460e-9a75-b1bdba8316d9",
+      "title": "Printemps Haussmann",
+      "description": "Concorrente da **Galeries Lafayette**. O terraço no 9º andar é gratuito e tem uma vista 360º incrível de Paris, melhor que a da vizinha.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "d91230e1-6210-4a79-a6e6-d1ef06b65720",
+      "title": "Saint-Germain-des-Prés",
+      "description": "O bairro chique e intelectual. Cafés famosos (Les Deux Magots, Café de Flore), galerias de arte e lojas de luxo. Atmosfera clássica parisiense.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "214be859-00a8-4f93-bd48-8aff1613b91d",
+      "title": "Hotel de Ville",
+      "description": "A prefeitura de Paris. A praça em frente tem eventos sazonais: pista de patinação no inverno, telões nas Olimpíadas, jardim efêmero no verão.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "802dee7b-caf7-42ed-bdf5-847149e7baf3",
+      "title": "Bercy Village",
+      "description": "Antigos armazéns de vinho transformados em shopping a céu aberto e restaurantes. Perto do parque de **Bercy** e da Cinemateca.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "41f95b26-8470-4277-b174-aca7c5846b74",
+      "title": "Pont Neuf",
+      "description": "Apesar do nome 'Ponte Nova', é a ponte mais velha de Paris. Tem 'varandas' de pedra ótimas para sentar e descansar sobre o rio.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "90c3e435-0989-4057-b933-ced72bff4cda",
+      "title": "Place de la Concorde",
+      "description": "Onde ficava a guilhotina na Revolução. Hoje tem o Obelisco de Luxor (presente do Egito) e fontes lindas. Cuidado ao atravessar, o trânsito é louco.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "a11fa815-2ead-4476-b504-e4f0dc4456e6",
+      "title": "Samaritaine",
+      "description": "Loja de departamento de luxo reaberta recentemente. A arquitetura **Art Nouveau** e Art Déco é espetacular. Caro para comprar, grátis para admirar.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "8ad367d6-dd8c-419c-aaea-4052ce5b2af2",
+      "title": "Bois de Boulogne",
+      "description": "O pulmão verde do oeste. Tem lagos com barcos, jardim botânico e a Fundação Louis Vuitton. Evite ir à noite (prostituição).",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "d634d757-437a-4bcd-bc4f-30606a0f7324",
+      "title": "Bois de Vincennes",
+      "description": "O pulmão verde do leste. Tem um castelo medieval real (**Château** de Vincennes) e um zoológico moderno.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:00:36.059Z"
+    },
+    {
+      "id": "77bf26b6-1500-487c-b57c-72310eab1d28",
+      "title": "Farmácia Citypharma",
+      "description": "O paraíso dos cosméticos em Saint-Germain. Preços imbatíveis para marcas como La Roche-Posay, Vichy e Bioderma. Vá cedo, é um formigueiro.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "007f00c0-03f9-4a65-8aaa-e2743286fe32",
+      "title": "Jardim de Monet (Giverny)",
+      "description": "Bate-volta clássico. Pegue o trem na **Gare Saint-Lazare** até Vernon. A casa e os jardins de Monet são mágicos na primavera. Reserve ingresso antes.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "2f73ed0a-9d50-4c9b-84fd-b562ff94b71a",
+      "title": "Castelo de Fontainebleau",
+      "description": "Alternativa a **Versalhes**. Menos lotado, igualmente grandioso (era a casa de Napoleão) e tem uma floresta incrível ao redor para escalar rochas (boulder).",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "c112e55c-9b9d-4a3c-aa29-51c47d891e25",
+      "title": "Disneylândia Paris: 1 ou 2 parques?",
+      "description": "Se tiver só um dia, foque no Disneyland Park (o principal). O Walt Disney Studios é menor, mas tem as atrações da Marvel e Ratatouille.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "0b60d757-d00e-491f-b1d7-8e8464655419",
+      "title": "Macaron do Pierre Hermé: Mogador",
+      "description": "Sabor assinatura: Chocolate ao leite e Maracujá. É uma explosão de sabor. Tem quiosques na **Galeries Lafayette** e na **Champs-Élysées**.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "42fec310-22d9-4f8c-ab5f-b928cd3b5bb1",
+      "title": "Chá na Mesquita",
+      "description": "A Grande Mesquita de Paris serve um chá de hortelã doce maravilhoso por 2 euros. Ambiente relaxante com pássaros voando entre as mesas.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "7b01e4b2-4b49-4642-a86c-b5d592deede2",
+      "title": "Lojas de Departamento no Domingo",
+      "description": "**Galeries Lafayette** e **Printemps** abrem aos domingos (o que é raro para lojas grandes em Paris). O **BHV** no **Marais** também.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "893b0223-32a1-41f2-92b7-9dc6ccc48d94",
+      "title": "Tax Free (Détaxe)",
+      "description": "Gastou mais de 100€ na mesma loja? Peça o formulário de Détaxe. Você recupera ~12% do valor no aeroporto. Tenha o passaporte em mãos na loja.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [
+        {
+          "keyword": "Tax Free",
+          "info": "Reembolso de impostos."
+        }
+      ],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "4663675e-3e73-4d4f-ad76-6bb3f716ecd9",
+      "title": "Tomada Tipo E",
+      "description": "A tomada francesa tem dois pinos redondos e um pino terra saindo da parede. Traga adaptador universal, o padrão brasileiro de 3 pinos não entra.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "b0e46fa7-d38e-4004-b9e0-1e6d3f25efc6",
+      "title": "Voltagem 220V",
+      "description": "Cuidado com secadores e chapinhas 110V. Vão queimar. A França é 220V.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "690448f2-2402-4a0a-b762-c1e7b4cdb021",
+      "title": "Chip de Celular (SIM Card)",
+      "description": "Compre um chip pré-pago da Free Mobile (maquinas automáticas nas lojas) ou Orange Holiday. Roaming do Brasil é caríssimo.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "d91e3c7a-faf5-4cb9-ba87-c0dc1d921f58",
+      "title": "Wi-Fi Grátis",
+      "description": "A maioria dos parques públicos tem Wi-Fi gratuito da prefeitura ('Paris Wi-Fi'). É lento, mas salva em emergência.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "eaeb1101-20f3-4122-83b1-cc2bb32ffe87",
+      "title": "Provins: Cidade Medieval",
+      "description": "Patrimônio da UNESCO, cidade murada medieval acessível com o cartão **Navigo** (**Zona 5**). Tem shows de águias e torneios de cavaleiros.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "a9435eb4-39ad-491c-898b-12980c658dce",
+      "title": "Auvers-sur-Oise (Van Gogh)",
+      "description": "A cidade onde Van Gogh viveu seus últimos dias e está enterrado. Visite o quarto dele na pensão Ravoux. Emocionante.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "18a1f8ae-c5af-4907-a310-d121ae1260a3",
+      "title": "Boulangerie 2024",
+      "description": "Procure na vitrine o selo 'Meilleure Baguette de Paris'. A padaria vencedora fornece pão para o presidente naquele ano.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "25315c19-78ed-454b-b224-4ad922bafe06",
+      "title": "Queijo Comté",
+      "description": "O queijo favorito dos franceses. Duro, frutado, de leite cru. Peça 'Comté 18 mois' (curado 18 meses) para mais sabor.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "f76f6e51-64a9-4d40-8de9-fa0b6758ec37",
+      "title": "Manteiga com Sal (Demi-sel)",
+      "description": "Na França, prefira 'Beurre Demi-sel' (meio sal) com cristais de sal. A manteiga sem sal (Doux) é sem graça para passar no pão.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "28570730-46a5-4df0-8c57-1884baf3773c",
+      "title": "Vinagre de Mel",
+      "description": "Souvenir barato: Vinagre de mel ou mostarda de cassis, encontrados em supermercados finos como La Grande Épicerie.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "7d39ef20-e9ef-481d-bc50-0767ff68ea02",
+      "title": "La Grande Épicerie",
+      "description": "O supermercado de luxo do **Bon Marché**. É um museu da gastronomia. Ótimo para comprar presentes comestíveis chiques.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "2a7e8800-be48-41c9-a40e-0f9f46260392",
+      "title": "Rue Cler",
+      "description": "Uma rua-mercado de pedestres perto da **Torre Eiffel**. Muito charmosa, cheia de delícias, mas preços um pouco 'pega-turista'.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "82809e95-2310-49f6-a891-cdc0db1b55d6",
+      "title": "Musée de Cluny",
+      "description": "Museu Nacional da Idade Média. Tem as famosas tapeçarias 'A Dama e o Unicórnio'. Reabriu reformado e acessível.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "7a7c7c52-4d9f-467d-b451-27901d21c89b",
+      "title": "Sainte-Chapelle: Concerto",
+      "description": "Assista a um concerto de música clássica (Vivaldi/Bach) dentro da **Sainte-Chapelle** à noite. Acústica e visual inesquecíveis.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "c3fd2d45-8853-4777-9c82-a419aa453fa8",
+      "title": "Pont Alexandre III à noite",
+      "description": "Iluminada por postes **Art Nouveau**, é mágica. Dá para ver a **Torre Eiffel** piscando (a cada hora cheia, por 5 minutos) de lá.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "2255b079-e957-432c-b2a4-95efd491bfd0",
+      "title": "Gorjeta para Taxista",
+      "description": "Arredonde o valor. Se deu 18,50€, deixe 20€. Não é obrigatório, mas apreciado.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "e55e771c-28da-444e-83c2-c6bfd7be00e5",
+      "title": "Metrô Criança",
+      "description": "Crianças abaixo de 4 anos não pagam. De 4 a 10 pagam meia tarifa (Carnet réduit) em bilhetes avulsos.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "e0124b71-1701-4a56-842f-9ea12c694cac",
+      "title": "Paris Plages",
+      "description": "No verão, as margens do **Sena** viram 'praia' com areia, espreguiçadeiras e guarda-sóis. Gratuito e divertido.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "48162c70-5db3-4c1c-bc36-03ad35759ce6",
+      "title": "Canal de l'Ourcq",
+      "description": "Continuação do **Canal Saint-Martin**, mais ao norte. Tem piscinas gratuitas no canal no verão e barcos elétricos self-service (Marin D'Eau Douce).",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "2ffee784-1cf0-40b4-bc6a-e3c9eac71893",
+      "title": "Parc Monceau",
+      "description": "O parque mais aristocrático. Cercado de mansões douradas. Tem pirâmide, colunata romana e estátuas. Chiquérrimo.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "ffc6de23-7a49-475e-9f5f-532fdbc55839",
+      "title": "Musée Jacquemart-André",
+      "description": "Uma mansão privada do século 19, mantida exatamente como era. O salão de chá é um dos mais bonitos de Paris. (Verifique se reabriu da reforma).",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "8693a6fd-de8a-4930-a3e4-006a391f1f0d",
+      "title": "Fundação Cartier",
+      "description": "Prédio de vidro de Jean Nouvel com jardim selvagem. Arte contemporânea de primeira linha. No Boulevard Raspail.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "75fc9b96-8a1e-45f0-ae33-fa8be7b150cc",
+      "title": "Cinémathèque Française",
+      "description": "Museu do cinema, projetado por Frank Gehry. Para cinéfilos. Fica no Parque de **Bercy**.",
+      "category": "CULTURE",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "898c54c6-4082-447f-8222-7c974e09aca2",
+      "title": "Le Bon Marché",
+      "description": "A loja de departamento mais antiga e elegante. Menos turística que a Lafayette, frequentada pela elite local.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "b1a00844-ccf0-4fea-96f0-dfb13e2d8521",
+      "title": "Rue de Charonne",
+      "description": "No 11ème arrondissement. Cheia de boutiques de designers independentes e bistrôs descolados. Fora do radar turístico.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "8cf9aa1f-5900-4679-bb71-986d04703d46",
+      "title": "Mercado das Flores",
+      "description": "Na **Île de la Cité**, Place Louis Lépine. Um mercado histórico de flores e pássaros (pássaros só aos domingos, mas está mudando).",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "8d405eb1-1e13-4f5d-ab75-747036ed1965",
+      "title": "Place Dalida",
+      "description": "O busto da cantora Dalida em **Montmartre** tem os seios polidos de tanto os turistas tocarem (dá sorte?). A vista da rua Abreuvoir dali é linda.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "e1bebc88-4510-4349-a984-dd63d04fb4ac",
+      "title": "Vinha de Montmartre",
+      "description": "Sim, fazem vinho em Paris. A festa da colheita (Fête des Vendanges) em outubro é um evento enorme com desfiles e fogos.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "ab20d63d-165d-4957-9e70-101060b76d3e",
+      "title": "Padaria Poilâne",
+      "description": "Famosa pelo pão de fermentação natural (miche) com um P desenhado. Caro, mas dura uma semana fresco.",
+      "category": "FOOD",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "2a270c7c-678e-4c75-b296-9342b2f4790a",
+      "title": "Andar na Grama",
+      "description": "Muitos gramados em Paris são 'interdits' (proibidos). Procure a placa 'Pelouse autorisée' antes de estender a canga.",
+      "category": "CITY",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "5cf97078-3293-458d-94d5-c31684c56afb",
+      "title": "Bicicletas no Metrô",
+      "description": "Só é permitido levar bike no Metrô (Linha 1) aos domingos. No **RER** é permitido fora do horário de pico. Na dúvida, não leve.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "a100be87-8b51-49a4-9d81-f6608d4895cf",
+      "title": "Navette Fluviale (Voguéo)",
+      "description": "Existiu um projeto de transporte público fluvial, mas hoje o **Batobus** é o que mais se aproxima. Não vale bilhete de metrô.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "id": "07f311b9-0e31-4bc7-b239-dd4611482278",
+      "title": "Estação Abbesses",
+      "description": "Tem a escada em caracol mais profunda de Paris. Se não tiver preparo físico, pegue o elevador gigante. Sério, são muitos degraus.",
+      "category": "TRANSPORTATION",
+      "votes": 0,
+      "highlights": [],
+      "status": "approved",
+      "email": "internal@parisguide.com",
+      "createdAt": "2026-02-03T07:01:40.348Z"
+    }
+  ]
+}

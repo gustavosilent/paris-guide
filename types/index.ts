@@ -10,6 +10,7 @@ export interface Tip {
     category: string
     votes: number
     highlights: KeywordHighlight[]
+    status?: 'pending' | 'approved' | 'rejected'  // Optional for client-side only
 }
 
 export interface TipsResponse {
