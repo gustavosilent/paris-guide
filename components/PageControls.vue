@@ -64,6 +64,7 @@ const toggleLanguage = () => {
             @click="emit('update:modelValue', true)"
             :ui="{ rounded: 'rounded-full' }"
             aria-label="Add Tip"
+            disabled
           />
       </div>
     </div>

@@ -131,12 +131,12 @@ onMounted(() => {
         
         <div class="flex md:flex-col gap-2 justify-center min-w-[120px]">
             <template v-if="tip.status === 'pending'">
-                <UButton color="green" variant="solid" icon="i-heroicons-check" block @click="handleStatus(tip.id, 'approved')">Approve</UButton>
-                <UButton color="red" variant="ghost" icon="i-heroicons-x-mark" block @click="handleStatus(tip.id, 'rejected')">Reject</UButton>
+                <UButton color="green" variant="solid" icon="i-heroicons-check" block @click="handleStatus(tip.id, 'approved')" disabled>Approve</UButton>
+                <UButton color="red" variant="ghost" icon="i-heroicons-x-mark" block @click="handleStatus(tip.id, 'rejected')" disabled>Reject</UButton>
             </template>
             <div class="h-px bg-white/10 my-1" v-if="tip.status === 'pending'"></div>
-            <UButton color="blue" variant="soft" icon="i-heroicons-pencil-square" block @click="handleEdit(tip)">Edit</UButton>
-            <UButton color="red" variant="soft" icon="i-heroicons-trash" block @click="handleDelete(tip.id)">Delete</UButton>
+            <UButton color="blue" variant="soft" icon="i-heroicons-pencil-square" block @click="handleEdit(tip)" disabled>Edit</UButton>
+            <UButton color="red" variant="soft" icon="i-heroicons-trash" block @click="handleDelete(tip.id)" disabled>Delete</UButton>
         </div>
       </div>
     </div>

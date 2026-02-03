@@ -125,6 +125,7 @@ const segments = computed(() => {
             size="xl" 
             @click="toggleVote" 
             class="hover:bg-white/20 rounded-full transition-colors duration-300" 
+            disabled
           />
           <span 
              class="text-sm font-bold transition-colors duration-300"
