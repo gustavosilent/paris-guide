@@ -3045,6 +3045,16 @@
       "status": "approved",
       "email": "internal@parisguide.com",
       "createdAt": "2026-02-03T07:01:40.348Z"
+    },
+    {
+      "title": "Le bateau Phare",
+      "description": "O barco com uma sala de concertos dentro dele. Estacionário no rio Seine, consulte a agenda de shows e se divirta sob as águas.",
+      "category": "CULTURE",
+      "email": "gutobp@gmail.com",
+      "highlights": [],
+      "id": "90163b75-7ecd-4f3f-85f6-482ca5395288",
+      "votes": 0,
+      "status": "pending"
     }
   ]
 }

@@ -12,33 +12,45 @@ useSeoMeta({
   </div>
 </template>
 
-
 <style>
-/* Global scroll behavior */
-html, body {
-  scroll-behavior: smooth;
-  overflow: hidden; /* We handle scroll in a container for snapping */
-  background: #050505;
-  color: #fff;
-  font-family: 'Inter', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=JetBrains+Mono:wght@400;700&display=swap');
+
+:root {
+  --bg-primary: #0A0A0A;
+  --accent-cyan: #00F0FF;
 }
 
-.grain-bg {
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3%3Cfilter id='noiseFilter'%3%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3%3C/filter%3%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3%3C/svg%32");
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-primary);
+  margin: 0;
+  padding: 0;
 }
 
-/* Sharp Reset */
-* {
+/* Technical Minimalism Background */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(circle at 50% 50%, rgba(20, 20, 20, 1) 0%, rgba(10, 10, 10, 1) 100%);
+  z-index: -1;
+}
+
+/* Global Reset for Sharp Edges - Technical Aesthetic */
+*, *::before, *::after {
   border-radius: 0 !important;
 }
 
-/* Restore some rounding for specific elements where it's intentional */
+/* Exception for very specific rounded elements if any, but in Technical Minimalism, 0 is king */
 .rounded-full {
   border-radius: 9999px !important;
 }
 
-.rounded-sharp {
-  border-radius: 2px !important;
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
 }
 </style>
-

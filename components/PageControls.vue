@@ -28,33 +28,33 @@ const toggleLanguage = () => {
 
 <template>
     <div 
-      class="fixed bottom-0 left-0 right-0 z-[100] pointer-events-none flex justify-end p-6 md:p-12 transition-all duration-500"
-      :class="modelValue ? 'translate-y-full opacity-0' : 'translate-y-0 opacity-100'"
+      class="fixed bottom-12 left-0 right-0 z-[100] pointer-events-none flex justify-center transition-all duration-700 delay-300"
+      :class="modelValue ? 'translate-y-24 opacity-0' : 'translate-y-0 opacity-100'"
     >
-      <div class="pointer-events-auto flex items-stretch gap-0 bg-black border border-white/10 shadow-[20px_20px_50px_rgba(0,0,0,0.5)]">
+      <div class="pointer-events-auto flex items-stretch gap-0 bg-[#0A0A0A] border border-white/10 font-mono text-[9px] tracking-[0.3em] uppercase transition-all duration-500 hover:border-white/20">
           <button 
             @click="toggleSort"
-            class="flex items-center justify-center p-4 hover:bg-white hover:text-black transition-all duration-300 border-r border-white/5"
+            class="flex items-center justify-center p-4 border-r border-white/5 hover:bg-white/5 transition-all duration-300 group"
             aria-label="Sort Order"
           >
-            <UIcon :name="sortMode === 'relevant' ? 'i-heroicons-star' : 'i-heroicons-sparkles'" class="w-6 h-6" />
+            <UIcon :name="sortMode === 'relevant' ? 'i-heroicons-star' : 'i-heroicons-sparkles'" class="w-5 h-5 transition-colors" :class="sortMode === 'relevant' ? 'text-[#00F0FF]' : 'text-white/40 group-hover:text-white'" />
           </button>
           
           <button 
             @click="toggleLanguage"
-            class="flex items-center justify-center px-6 py-4 text-xs font-black uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300 border-r border-white/5"
-            aria-label="Language"
+            class="flex items-center justify-center px-6 py-4 border-r border-white/5 hover:bg-white/5 transition-all duration-300 text-white/40 hover:text-white"
+            aria-label="Language Toggle"
           >
-            {{ language === 'ptbr' ? 'PT' : 'EN' }}
+            LANG / {{ language === 'ptbr' ? 'PT' : 'EN' }}
           </button>
 
           <button 
             @click="emit('update:modelValue', true)"
-            class="flex items-center justify-center p-4 hover:bg-white hover:text-black transition-all duration-300"
+            class="flex items-center justify-center px-6 py-4 hover:bg-white/5 transition-all duration-300 text-white/40 hover:text-white"
             aria-label="Submit New Tip"
-            disabled
           >
-            <UIcon name="i-heroicons-plus" class="w-6 h-6" />
+            <UIcon name="i-heroicons-plus" class="w-5 h-5 mr-3" />
+            NEW_TIP
           </button>
       </div>
     </div>

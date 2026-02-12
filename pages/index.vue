@@ -69,7 +69,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="relative h-screen w-full overflow-hidden">
+  <div class="relative h-[100dvh] w-full overflow-hidden">
     <CategoryFilter 
       :categories="categories" 
       v-model="activeCategory" 

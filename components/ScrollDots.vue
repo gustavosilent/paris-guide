@@ -40,16 +40,22 @@ const visibleDots = computed(() => {
         v-if="active === i-1"
         class="absolute right-0 top-0 bottom-0 w-1 bg-white"
       ></div>
-      <span class="absolute right-4 top-1/2 -translate-y-1/2 text-[8px] font-black tracking-widest opacity-0 group-hover:opacity-20 transition-opacity">
-        {{ String(i).padStart(2, '0') }}
+    </div>
+
+    <div class="flex flex-col items-center gap-1 mt-4">
+      <span class="font-mono text-[11px] font-bold text-[#00F0FF] tabular-nums">
+        {{ String(active + 1).padStart(2, '0') }}
+      </span>
+      <div class="w-2 h-[1px] bg-white/10"></div>
+      <span class="font-mono text-[11px] text-white/20 tabular-nums">
+        {{ String(total).padStart(2, '0') }}
       </span>
     </div>
   </div>
-
-  <!-- Mobile Counter -->
-  <div class="fixed top-20 right-0 z-40 flex md:hidden pointer-events-none">
-    <div class="px-4 py-2 bg-black border border-white/10 text-white font-black text-[10px] tracking-widest uppercase shadow-2xl">
-      {{ active + 1 }} / {{ total }}
-    </div>
-  </div>
 </template>
+
+<style scoped>
+.vertical-text {
+  writing-mode: vertical-rl;
+}
+</style>
