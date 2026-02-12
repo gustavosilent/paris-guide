@@ -37,7 +37,7 @@ const state = reactive({
 })
 
 // Dynamic Color Mapping
-const categoryColor = computed(() => getCategoryColor(state.category).color)
+const categoryColor = computed(() => getCategoryColor(state.category || '').color)
 
 watch(() => props.initialData, (val) => {
   if (val) {
@@ -123,11 +123,11 @@ const onSubmit = async () => {
     overlay: { background: 'bg-black/90 backdrop-blur-sm' },
     base: 'bg-[#0A0A0A] border border-white/10 rounded-none overflow-hidden max-w-2xl'
   }">
-    <div class="relative p-0 flex flex-col h-full max-h-[90vh]">
-      <div class="p-8 border-b border-white/10 flex items-center justify-between bg-white/[0.02]">
+    <div class="relative p-0 flex flex-col h-full max-h-[90vh] bg-[#0A0A0A]">
+      <div class="p-6 md:p-8 border-b border-white/10 flex items-center justify-between bg-white/[0.02]">
         <div class="flex items-center gap-4">
           <div class="w-1 h-6 transition-colors duration-500" :style="{ backgroundColor: categoryColor }"></div>
-          <h3 class="text-2xl font-black text-white tracking-tighter uppercase tabular-nums">
+          <h3 class="text-xl md:text-2xl font-black text-white tracking-tighter uppercase tabular-nums">
             {{ isEdit ? 'DATA_EDIT' : 'NEW_ENTRY' }}
           </h3>
         </div>
@@ -136,16 +136,16 @@ const onSubmit = async () => {
         </button>
       </div>
       
-      <div class="flex-1 overflow-y-auto p-8 md:p-12 custom-scrollbar">
-        <UForm :schema="schema" :state="state" class="space-y-8" @submit="onSubmit">
+      <div class="flex-1 overflow-y-auto p-6 md:p-12 custom-scrollbar">
+        <UForm :schema="schema" :state="state" class="space-y-6 md:space-y-8" @submit="onSubmit">
           <UFormGroup name="title">
             <template #label>
-              <label class="font-mono text-[9px] font-bold uppercase tracking-[0.3em] text-white/40 mb-3 block">01 // Identifier Title</label>
+              <label class="font-mono text-[9px] font-bold uppercase tracking-[0.2em] md:tracking-[0.3em] text-white/60 mb-3 block">01 // Identifier Title</label>
             </template>
             <UInput 
               v-model="state.title" 
               placeholder="ENTRY_NAME..." 
-              size="xl"
+              size="lg"
               :ui="{ 
                 base: 'bg-transparent border-white/10 text-white transition-all duration-300 font-bold placeholder:text-white/10',
                 rounded: 'rounded-none'
@@ -156,13 +156,13 @@ const onSubmit = async () => {
 
           <UFormGroup name="category">
             <template #label>
-              <label class="font-mono text-[9px] font-bold uppercase tracking-[0.3em] text-white/40 mb-3 block">02 // Operational Sector</label>
+              <label class="font-mono text-[9px] font-bold uppercase tracking-[0.2em] md:tracking-[0.3em] text-white/60 mb-3 block">02 // Operational Sector</label>
             </template>
             <USelect 
               v-model="state.category" 
               :options="categories" 
               placeholder="SELECT_SECTOR..." 
-              size="xl"
+              size="lg"
               :ui="{ 
                 base: 'bg-transparent border-white/10 text-white transition-all duration-300 font-bold',
                 rounded: 'rounded-none',
@@ -174,13 +174,13 @@ const onSubmit = async () => {
 
           <UFormGroup name="description">
             <template #label>
-              <label class="font-mono text-[9px] font-bold uppercase tracking-[0.3em] text-white/40 mb-3 block">03 // Intelligence Context</label>
+              <label class="font-mono text-[9px] font-bold uppercase tracking-[0.2em] md:tracking-[0.3em] text-white/60 mb-3 block">03 // Intelligence Context</label>
             </template>
             <UTextarea 
               v-model="state.description" 
               placeholder="PROVIDE_CONTEXTUAL_DATA..." 
               :rows="4" 
-              size="xl"
+              size="lg"
               :ui="{ 
                 base: 'bg-transparent border-white/10 text-white transition-all duration-300 font-bold placeholder:text-white/10 leading-relaxed',
                 rounded: 'rounded-none'
@@ -189,16 +189,16 @@ const onSubmit = async () => {
             />
           </UFormGroup>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             <UFormGroup name="email">
               <template #label>
-                <label class="font-mono text-[9px] font-bold uppercase tracking-[0.3em] text-white/40 mb-3 block">04 // Operator_Auth</label>
+                <label class="font-mono text-[9px] font-bold uppercase tracking-[0.2em] md:tracking-[0.3em] text-white/60 mb-3 block">04 // Operator_Auth</label>
               </template>
               <UInput 
                 v-model="state.email" 
                 type="email" 
                 placeholder="AGENT_ID@PARIS" 
-                size="xl"
+                size="lg"
                 :ui="{ 
                   base: 'bg-transparent border-white/10 text-white transition-all duration-300 font-bold placeholder:text-white/10',
                   rounded: 'rounded-none'
@@ -208,8 +208,8 @@ const onSubmit = async () => {
             </UFormGroup>
           </div>
 
-          <div class="pt-8 border-t border-white/5">
-            <div class="flex items-center justify-between mb-8 font-mono text-[9px] tracking-[0.3em] text-white/20 uppercase">
+          <div class="pt-6 md:pt-8 border-t border-white/5">
+            <div class="flex items-center justify-between mb-6 md:mb-8 font-mono text-[9px] tracking-[0.2em] md:tracking-[0.3em] text-white/40 uppercase">
               <span>05 // Precision Highlights</span>
               <button 
                 type="button"
@@ -248,7 +248,7 @@ const onSubmit = async () => {
               block 
               size="xl"
               :loading="isLoading"
-              class="rounded-none font-black uppercase tracking-[0.4em] transition-all duration-500 h-16 shadow-lg shadow-black"
+              class="rounded-none font-black uppercase tracking-widest md:tracking-[0.4em] transition-all duration-500 h-14 md:h-16 shadow-lg shadow-black text-[10px] md:text-xs"
               :style="{ backgroundColor: categoryColor, color: '#000' }"
             >
               {{ isEdit ? 'EXECUTE_COMMIT' : 'INITIALIZE_SUBMISSION' }}

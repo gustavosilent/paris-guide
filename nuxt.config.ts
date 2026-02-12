@@ -12,6 +12,11 @@ export default defineNuxtConfig({
     viewer: false,
     quiet: true
   },
+  colorMode: {
+    preference: 'dark',
+    fallback: 'dark',
+    classSuffix: ''
+  },
   app: {
     baseURL: process.env.NODE_ENV === 'production' ? '/paris-guide/' : '/',
     buildAssetsDir: '/assets/'

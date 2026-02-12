@@ -86,14 +86,14 @@ onMounted(() => {
       ]"
     >
       <!-- Meta Rail (Col 1-2) -->
-      <div class="md:col-span-2 border-r border-white/10 p-6 flex flex-col justify-between items-start font-mono text-[10px] tracking-[0.2em] text-white/40 uppercase">
+      <div class="md:col-span-2 border-r border-white/10 p-4 md:p-6 flex flex-col justify-between items-start font-mono text-[9px] md:text-[10px] tracking-[0.2em] text-white/40 uppercase">
         <div 
           class="transition-all duration-700 delay-100 transform"
           :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'"
         >
           <div class="mb-2 text-white/20">Sector</div>
           <div 
-            class="font-bold tracking-[0.4em] origin-top-left rotate-90 translate-x-3 translate-y-6 whitespace-nowrap border-b pb-1 transition-colors duration-700"
+            class="font-bold tracking-[0.3em] md:tracking-[0.4em] origin-top-left rotate-90 translate-x-3 translate-y-6 md:translate-y-8 whitespace-nowrap border-b pb-1 transition-colors duration-700"
             :style="{ color: categoryColor, borderColor: categoryColor }"
           >
             {{ tip.category }}
@@ -104,22 +104,22 @@ onMounted(() => {
           :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'"
         >
           <div class="text-white/20 mb-1">Entry ID</div>
-          <div class="text-white/60">{{ tip.id.split('-')[0] }}</div>
+          <div class="text-white/60">{{ tip.id?.split('-')[0] }}</div>
         </div>
       </div>
 
       <!-- Content Area (Col 3-10) -->
-      <div class="md:col-span-8 p-8 md:p-16 lg:p-24 flex flex-col justify-center">
+      <div class="md:col-span-8 p-6 md:p-16 lg:p-24 flex flex-col justify-center overflow-hidden">
         <div 
           class="transition-all duration-1000 delay-200 transform"
           :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'"
         >
-          <h2 class="text-[clamp(2rem,8vw,5.5rem)] font-black uppercase leading-[0.9] tracking-tighter text-white mb-12 max-w-4xl break-words">
+          <h2 class="text-[clamp(1.5rem,8vw,5.5rem)] font-black uppercase leading-[0.9] tracking-tighter text-white mb-8 md:mb-12 max-w-4xl break-words">
             {{ tip.title }}
           </h2>
           
           <div 
-            class="max-w-xl text-lg md:text-xl text-white/50 leading-relaxed font-light transition-all duration-1000 delay-400 transform"
+            class="max-w-xl text-base md:text-xl text-white/50 leading-relaxed font-light transition-all duration-1000 delay-400 transform"
             :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'"
           >
             <template v-for="(segment, i) in segments" :key="i">

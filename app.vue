@@ -6,8 +6,8 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="antialiased h-screen overflow-y-auto bg-[#050505] text-white selection:bg-[#FF4D00] selection:text-black">
-    <div class="fixed inset-0 pointer-events-none opacity-20 grain-bg"></div>
+  <div class="antialiased h-[100dvh] overflow-hidden bg-[#0A0A0A] text-white selection:bg-[#00F0FF] selection:text-black">
+    <div class="fixed inset-0 pointer-events-none opacity-10 grain-bg"></div>
     <NuxtPage />
   </div>
 </template>
