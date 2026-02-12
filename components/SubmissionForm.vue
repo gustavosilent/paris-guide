@@ -105,103 +105,126 @@ const onSubmit = async () => {
 </script>
 
 <template>
-  <UModal v-model="isOpen" :ui="{ overlay: { background: 'bg-black/80 backdrop-blur-sm' } }">
-    <div class="relative overflow-hidden rounded-2xl ">
-      <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
+  <UModal v-model="isOpen" :ui="{ 
+    overlay: { background: 'bg-black/95' },
+    base: 'bg-black border border-white/10 rounded-none shadow-[40px_40px_100px_rgba(0,0,0,1)]'
+  }">
+    <div class="relative overflow-hidden p-0">
+      <div class="absolute top-0 left-0 right-0 h-1 bg-[#FF4D00]"></div>
       
-      <div class="p-8">
-        <div class="flex items-center justify-between mb-8">
-          <h3 class="text-2xl font-bold text-white tracking-tight">
-            {{ isEdit ? 'Editar Dica' : 'Nova Dica' }}
+      <div class="p-8 md:p-12">
+        <div class="flex items-center justify-between mb-12 border-b border-white/5 pb-8">
+          <h3 class="text-4xl font-black text-white tracking-tighter uppercase italic">
+            {{ isEdit ? 'Modify Tip' : 'New Entry' }}
           </h3>
-          <UButton color="white" variant="ghost" icon="i-heroicons-x-mark" class="hover:bg-white/10 rounded-full" @click="isOpen = false" />
+          <button @click="isOpen = false" class="text-white/40 hover:text-white transition-colors">
+            <UIcon name="i-heroicons-x-mark" class="w-8 h-8" />
+          </button>
         </div>
 
-        <UForm :schema="schema" :state="state" class="space-y-6" @submit="onSubmit">
-          <UFormGroup label="Título" name="title" :ui="{ label: { base: 'text-gray-300 font-medium' } }">
+        <UForm :schema="schema" :state="state" class="space-y-10" @submit="onSubmit">
+          <UFormGroup name="title">
+            <template #label>
+              <label class="text-[10px] font-black uppercase tracking-[0.2em] text-[#FF4D00] mb-2 block">01 / Title</label>
+            </template>
             <UInput 
               v-model="state.title" 
-              placeholder="Ex: O melhor croissant..." 
-              size="lg"
+              placeholder="THE ULTIMATE CROISSANT..." 
+              size="xl"
               :ui="{ 
-                base: 'bg-white/5 border-white/10 text-white focus:ring-purple-500 focus:border-purple-500 rounded-xl',
-                placeholder: 'placeholder-gray-500'
+                base: 'bg-transparent border-white/10 text-white focus:border-[#FF4D00] transition-all duration-300 font-bold placeholder:text-white/10',
+                rounded: 'rounded-none'
               }"
             />
           </UFormGroup>
 
-          <UFormGroup label="Categoria" name="category" :ui="{ label: { base: 'text-gray-300 font-medium' } }">
+          <UFormGroup name="category">
+            <template #label>
+              <label class="text-[10px] font-black uppercase tracking-[0.2em] text-[#FF4D00] mb-2 block">02 / Category</label>
+            </template>
             <USelect 
               v-model="state.category" 
               :options="categories" 
-              placeholder="Selecione..." 
-              size="lg"
+              placeholder="SELECT SECTOR..." 
+              size="xl"
               :ui="{ 
-                base: 'bg-white/5 border-white/10 text-white focus:ring-purple-500 focus:border-purple-500 rounded-xl',
-                color: { gray: { outline: 'shadow-sm bg-transparent text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-primary-500 dark:ring-gray-700 dark:text-white dark:focus:ring-primary-500' } }
+                base: 'bg-transparent border-white/10 text-white focus:border-[#FF4D00] transition-all duration-300 font-bold',
+                rounded: 'rounded-none',
+                color: { gray: { outline: 'bg-transparent ring-0 border-white/10' } }
               }"
             />
           </UFormGroup>
 
-          <UFormGroup label="Descrição" name="description" :ui="{ label: { base: 'text-gray-300 font-medium' } }">
+          <UFormGroup name="description">
+            <template #label>
+              <label class="text-[10px] font-black uppercase tracking-[0.2em] text-[#FF4D00] mb-2 block">03 / Detailed Intelligence</label>
+            </template>
             <UTextarea 
               v-model="state.description" 
-              placeholder="Conte os detalhes..." 
+              placeholder="PROVIDE THE FULL CONTEXT..." 
               :rows="4" 
-              size="lg"
+              size="xl"
               :ui="{ 
-                base: 'bg-white/5 border-white/10 text-white focus:ring-purple-500 focus:border-purple-500 rounded-xl',
-                placeholder: 'placeholder-gray-500'
+                base: 'bg-transparent border-white/10 text-white focus:border-[#FF4D00] transition-all duration-300 font-bold placeholder:text-white/10',
+                rounded: 'rounded-none'
               }"
             />
           </UFormGroup>
 
-          <UFormGroup label="Seu Email" name="email" :ui="{ label: { base: 'text-gray-300 font-medium' } }">
+          <UFormGroup name="email">
+            <template #label>
+              <label class="text-[10px] font-black uppercase tracking-[0.2em] text-[#FF4D00] mb-2 block">04 / Operator Auth (Email)</label>
+            </template>
             <UInput 
               v-model="state.email" 
               type="email" 
-              placeholder="para validação da dica" 
-              size="lg"
+              placeholder="AGENT@PARIS-GUIDE.COM" 
+              size="xl"
               :ui="{ 
-                base: 'bg-white/5 border-white/10 text-white focus:ring-purple-500 focus:border-purple-500 rounded-xl',
-                placeholder: 'placeholder-gray-500'
+                base: 'bg-transparent border-white/10 text-white focus:border-[#FF4D00] transition-all duration-300 font-bold placeholder:text-white/10',
+                rounded: 'rounded-none'
               }"
             />
           </UFormGroup>
 
-          <div class="pt-2 border-t border-white/10 mt-6">
-            <div class="flex items-center justify-between mb-4">
-              <span class="text-gray-300 font-medium text-sm">Highlights (Palavras-chave)</span>
-              <UButton 
-                size="xs" 
-                color="primary" 
-                variant="soft" 
-                icon="i-heroicons-plus" 
+          <div class="pt-4 border-t border-white/10 mt-12">
+            <div class="flex items-center justify-between mb-8">
+              <span class="text-[10px] font-black uppercase tracking-[0.2em] text-white/40">05 / Tactical Highlights</span>
+              <button 
+                type="button"
                 @click="addHighlight"
-                label="Adicionar"
-              />
+                class="text-[10px] font-black uppercase tracking-[0.2em] text-white hover:text-[#FF4D00] transition-colors flex items-center gap-2"
+              >
+                <UIcon name="i-heroicons-plus" /> Add Highlight
+              </button>
             </div>
             
-            <div v-for="(item, index) in state.highlights" :key="index" class="flex gap-2 mb-2 items-start">
-              <UFormGroup :name="`highlights.${index}.keyword`" class="flex-1">
-                <UInput v-model="item.keyword" placeholder="Palavra" size="sm" :ui="{ base: 'bg-white/5 border-white/10 text-white' }" />
-              </UFormGroup>
-              <UFormGroup :name="`highlights.${index}.info`" class="flex-[2]">
-                <UInput v-model="item.info" placeholder="Explicação..." size="sm" :ui="{ base: 'bg-white/5 border-white/10 text-white' }" />
-              </UFormGroup>
-              <UButton color="red" variant="ghost" icon="i-heroicons-trash" size="sm" @click="removeHighlight(index)" class="mt-1" />
+            <div v-for="(item, index) in state.highlights" :key="index" class="flex flex-col md:flex-row gap-4 mb-6 pb-6 border-b border-white/5 last:border-0">
+              <div class="flex-1">
+                <UFormGroup :name="`highlights.${index}.keyword`">
+                  <UInput v-model="item.keyword" placeholder="KEYWORD" size="md" :ui="{ base: 'bg-transparent border-white/10 text-white', rounded: 'rounded-none' }" />
+                </UFormGroup>
+              </div>
+              <div class="flex-[2]">
+                <UFormGroup :name="`highlights.${index}.info`">
+                  <UInput v-model="item.info" placeholder="INTELLIGENCE..." size="md" :ui="{ base: 'bg-transparent border-white/10 text-white', rounded: 'rounded-none' }" />
+                </UFormGroup>
+              </div>
+              <button @click="removeHighlight(index)" class="text-white/40 hover:text-red-500 transition-colors p-2">
+                <UIcon name="i-heroicons-trash" class="w-5 h-5" />
+              </button>
             </div>
           </div>
 
-          <div class="pt-4">
+          <div class="pt-8">
             <UButton 
               type="submit" 
               block 
               size="xl"
               :loading="isLoading"
-              class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-bold rounded-xl transition-all duration-300 shadow-lg shadow-purple-500/25 border-none"
+              class="rounded-none bg-white text-black hover:bg-[#FF4D00] hover:text-white font-black uppercase tracking-[0.3em] transition-all duration-300 h-16"
             >
-              {{ isEdit ? 'Salvar Alterações' : 'Enviar Dica' }}
+              {{ isEdit ? 'Commit Changes' : 'Submit Intel' }}
             </UButton>
           </div>
         </UForm>

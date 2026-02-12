@@ -81,25 +81,28 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="min-h-screen pt-24 px-6 md:px-12 bg-black/90">
-    <div class="flex items-center justify-between mb-8">
-      <h1 class="text-4xl font-bold text-white">Admin Panel</h1>
-      <div class="flex gap-4 items-center">
-        <UButton 
-          :label="language === 'ptbr' ? 'PT' : 'EN'"
-          variant="soft"
-          color="primary"
-          size="lg"
+  <div class="min-h-screen pt-24 px-6 md:px-12 bg-[#050505] text-white">
+    <div class="flex flex-col md:flex-row items-start justify-between mb-16 border-b border-white/10 pb-12 gap-8">
+      <div>
+        <h1 class="text-6xl md:text-9xl font-black tracking-tighter uppercase italic leading-none">Admin Panel</h1>
+        <p class="text-[10px] font-black uppercase tracking-[0.4em] text-white/20 mt-4 leading-none">Security Clearance: Alpha-Zero</p>
+      </div>
+      
+      <div class="flex flex-col md:flex-row gap-8 items-start md:items-center">
+        <button 
           @click="store.setLanguage(language === 'ptbr' ? 'en' : 'ptbr')"
-          :ui="{ rounded: 'rounded-full' }"
-        />
-        <div class="flex bg-white/10 rounded-lg p-1">
+          class="px-8 py-3 bg-white text-black font-black uppercase tracking-widest text-xs hover:bg-[#FF4D00] hover:text-white transition-all duration-300"
+        >
+          {{ language === 'ptbr' ? 'PORTUGUESE' : 'ENGLISH' }}
+        </button>
+        
+        <div class="flex bg-white/5 border border-white/10 p-0">
           <button 
             v-for="f in filters" 
             :key="f"
             @click="filter = f"
-            class="px-4 py-2 rounded-md text-sm font-medium transition-colors capitalize"
-            :class="filter === f ? 'bg-purple-600 text-white shadow-lg' : 'text-gray-400 hover:text-white'"
+            class="px-6 py-3 text-[10px] font-black uppercase tracking-widest transition-all duration-300 border-r border-white/5 last:border-0"
+            :class="filter === f ? 'bg-white text-black' : 'text-white/40 hover:text-white hover:bg-white/5'"
           >
             {{ f }}
           </button>
@@ -107,36 +110,77 @@ onMounted(() => {
       </div>
     </div>
     
-    <div v-if="isLoading" class="text-white">Loading...</div>
+    <div v-if="isLoading" class="text-white font-black uppercase tracking-widest animate-pulse">Synchronizing Data...</div>
     
-    <div v-else-if="filteredTips.length === 0" class="text-gray-400">
-      No tips found for this filter.
+    <div v-else-if="filteredTips.length === 0" class="text-white/20 font-black uppercase tracking-widest">
+      Zero Entries Found.
     </div>
     
-    <div v-else class="grid gap-6">
-      <div v-for="tip in filteredTips" :key="tip.id" class="flex flex-col md:flex-row gap-4 bg-white/5 border border-white/10 p-6 rounded-2xl backdrop-blur-md transition-all hover:bg-white/10">
-        <div class="flex-1">
-          <div class="flex items-center gap-2 mb-2">
-            <span class="px-2 py-0.5 rounded text-xs font-bold uppercase tracking-wide border" :class="getCategoryColor(tip.category)?.badge || 'bg-gray-500 text-white'">{{ tip.category }}</span>
-            <span class="text-xs text-gray-500">{{ tip.id }}</span>
-            <UBadge :color="tip.status === 'approved' ? 'green' : tip.status === 'pending' ? 'yellow' : 'red'" variant="subtle" size="xs">{{ tip.status }}</UBadge>
+    <div v-else class="grid gap-0 border-t border-l border-white/10">
+      <div v-for="tip in filteredTips" :key="tip.id" class="flex flex-col md:grid md:grid-cols-12 gap-0 border-r border-b border-white/10 group transition-all duration-300 hover:bg-white/[0.02]">
+        
+        <!-- Grid Col: Status & Metadata -->
+        <div class="md:col-span-3 p-8 border-b md:border-b-0 md:border-r border-white/10 flex flex-col justify-between">
+          <div class="flex flex-col gap-4">
+            <span class="inline-block px-3 py-1 text-[10px] font-black uppercase tracking-widest border border-current" :class="getCategoryColor(tip.category)?.badge.replace('bg-', 'text-').replace('-200', '').replace('/10', '') || 'text-gray-500'">
+              {{ tip.category }}
+            </span>
+            <div class="text-[9px] font-black tracking-widest text-white/20 uppercase">{{ tip.id }}</div>
           </div>
-          <h3 class="text-xl font-bold text-white mb-2">{{ tip.title }}</h3>
-          <p class="text-gray-300 text-sm mb-4 line-clamp-2">{{ tip.description }}</p>
-          <div class="text-xs text-blue-400 mb-2">Submitted by: {{ tip.email }}</div>
-          <div class="flex gap-2">
-              <span v-for="h in tip.highlights" :key="h.keyword" class="text-xs bg-purple-500/20 text-purple-300 px-1.5 py-0.5 rounded">{{ h.keyword }}</span>
+          <div class="mt-8">
+            <div class="text-[10px] font-black uppercase tracking-widest mb-2 opacity-40">Status</div>
+            <div class="text-xs font-black uppercase tracking-widest" :class="tip.status === 'approved' ? 'text-green-500' : tip.status === 'pending' ? 'text-yellow-500' : 'text-red-500'">
+              // {{ tip.status }}
+            </div>
           </div>
         </div>
+
+        <!-- Grid Col: Content -->
+        <div class="md:col-span-6 p-8 border-b md:border-b-0 md:border-r border-white/10">
+          <h3 class="text-3xl font-black text-white mb-6 uppercase leading-tight">{{ tip.title }}</h3>
+          <p class="text-gray-400 text-sm mb-8 leading-relaxed max-w-xl">{{ tip.description }}</p>
+          <div class="flex flex-wrap gap-4 items-center">
+            <div class="text-[10px] font-black uppercase tracking-widest text-white/20">Keywords:</div>
+            <div class="flex gap-2">
+              <span v-for="h in tip.highlights" :key="h.keyword" class="text-[9px] border border-white/10 text-white/60 px-2 py-1 uppercase font-black tracking-widest">{{ h.keyword }}</span>
+            </div>
+          </div>
+          <div class="mt-8 text-[9px] font-black uppercase tracking-[0.2em] text-[#FF4D00]">Source: {{ tip.email }}</div>
+        </div>
         
-        <div class="flex md:flex-col gap-2 justify-center min-w-[120px]">
-            <template v-if="tip.status === 'pending'">
-                <UButton color="green" variant="solid" icon="i-heroicons-check" block @click="handleStatus(tip.id, 'approved')" disabled>Approve</UButton>
-                <UButton color="red" variant="ghost" icon="i-heroicons-x-mark" block @click="handleStatus(tip.id, 'rejected')" disabled>Reject</UButton>
-            </template>
-            <div class="h-px bg-white/10 my-1" v-if="tip.status === 'pending'"></div>
-            <UButton color="blue" variant="soft" icon="i-heroicons-pencil-square" block @click="handleEdit(tip)" disabled>Edit</UButton>
-            <UButton color="red" variant="soft" icon="i-heroicons-trash" block @click="handleDelete(tip.id)" disabled>Delete</UButton>
+        <!-- Grid Col: Actions -->
+        <div class="md:col-span-3 flex flex-col bg-white/[0.01]">
+          <template v-if="tip.status === 'pending'">
+            <button 
+              @click="handleStatus(tip.id, 'approved')"
+              class="flex-1 flex items-center justify-center gap-4 bg-green-500/10 text-green-500 hover:bg-green-500 hover:text-black transition-all duration-300 font-black uppercase tracking-widest text-[10px] border-b border-white/5"
+              disabled
+            >
+              <UIcon name="i-heroicons-check" class="w-5 h-5" /> Approve
+            </button>
+            <button 
+              @click="handleStatus(tip.id, 'rejected')"
+              class="flex-1 flex items-center justify-center gap-4 bg-red-500/10 text-red-500 hover:bg-red-500 hover:text-black transition-all duration-300 font-black uppercase tracking-widest text-[10px] border-b border-white/5"
+              disabled
+            >
+              <UIcon name="i-heroicons-x-mark" class="w-5 h-5" /> Reject
+            </button>
+          </template>
+          
+          <button 
+            @click="handleEdit(tip)"
+            class="flex-1 flex items-center justify-center gap-4 hover:bg-white hover:text-black transition-all duration-300 font-black uppercase tracking-widest text-[10px] border-b border-white/5"
+            disabled
+          >
+            <UIcon name="i-heroicons-pencil-square" class="w-5 h-5" /> Edit
+          </button>
+          <button 
+            @click="handleDelete(tip.id)"
+            class="flex-1 flex items-center justify-center gap-4 hover:bg-red-600 hover:text-white transition-all duration-300 font-black uppercase tracking-widest text-[10px]"
+            disabled
+          >
+            <UIcon name="i-heroicons-trash" class="w-5 h-5" /> Delete
+          </button>
         </div>
       </div>
     </div>

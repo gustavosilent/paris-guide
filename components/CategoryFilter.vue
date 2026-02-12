@@ -22,23 +22,35 @@ const select = (cat: string) => {
 
 <template>
   <div 
-    class="fixed top-4 left-0 right-0 z-50 flex justify-center pointer-events-none transition-transform duration-300"
-    :class="visible === false ? '-translate-y-24 md:translate-y-0' : 'translate-y-0'"
+    class="fixed top-0 left-0 right-0 z-50 flex justify-center pointer-events-none transition-transform duration-500"
+    :class="visible === false ? '-translate-y-full md:translate-y-0' : 'translate-y-0'"
   >
-    <div class="flex gap-2 p-2 px-4 md:px-2 bg-black/40 md:bg-black/20 backdrop-blur-2xl border border-white/5 md:border-white/5 border-b-white/10 rounded-b-2xl md:rounded-full shadow-2xl pointer-events-auto overflow-x-auto max-w-full md:max-w-[90vw] w-full md:w-auto no-scrollbar items-center justify-start md:justify-center">
-      <UButton 
+    <div class="flex gap-0 p-0 bg-black border-b border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] pointer-events-auto overflow-x-auto max-w-full w-full no-scrollbar items-stretch justify-start md:justify-center">
+      <button 
         v-for="cat in categories" 
         :key="cat"
-        :label="cat" 
-        :color="modelValue === cat ? 'white' : 'white'" 
-        :variant="modelValue === cat ? 'solid' : 'ghost'" 
-        size="xs"
-        class="capitalize shrink-0 rounded-full transition-all duration-300 border border-transparent select-none md:text-sm"
-        :class="modelValue === cat 
-           ? [getCategoryColor(cat)?.badge.replace('bg-', 'bg-').replace('/20', '/30'), getCategoryColor(cat)?.glow, 'scale-105 border-white/40 font-bold px-4 py-1.5 shadow-lg backdrop-blur-md'] 
-           : 'text-white/60 hover:text-white hover:bg-white/10 px-3 py-1.5'"
         @click="select(cat)"
-      />
+        class="relative px-6 py-4 text-[10px] font-black uppercase tracking-[0.2em] transition-all duration-300 border-r border-white/5 shrink-0 select-none group"
+        :class="modelValue === cat ? 'bg-white text-black' : 'text-white/40 hover:text-white hover:bg-white/5'"
+        :aria-label="`Filter by ${cat}`"
+      >
+        <span class="relative z-10">{{ cat }}</span>
+        <div 
+          v-if="modelValue === cat"
+          class="absolute bottom-0 left-0 h-1 w-full"
+          :class="getCategoryColor(cat)?.badge.replace('bg-', 'bg-').replace('/10', '')"
+        ></div>
+      </button>
+      
+      <!-- Reset/All Button -->
+      <button 
+        @click="emit('update:modelValue', null)"
+        class="px-6 py-4 text-[10px] font-black uppercase tracking-[0.2em] transition-all duration-300 shrink-0 select-none bg-white/5 hover:bg-white/10"
+        v-if="modelValue"
+        aria-label="Clear Filter"
+      >
+        ✕
+      </button>
     </div>
   </div>
 </template>

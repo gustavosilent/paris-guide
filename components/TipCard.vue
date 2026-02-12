@@ -76,76 +76,86 @@ const segments = computed(() => {
 </script>
 
 <template>
-  <div class="h-screen w-full flex items-center justify-center p-6 snap-start shrink-0 relative overflow-hidden">
-    <!-- Background element (could be dynamic color/image) -->
-    <div class="absolute inset-0 -z-10 opacity-10 bg-gradient-to-br from-primary-500/20 to-gray-500/20"></div>
+  <div class="h-screen w-full flex items-center justify-center p-4 md:p-12 snap-start shrink-0 relative overflow-hidden">
     
     <div 
       ref="cardRef"
-      class="w-full max-w-4xl backdrop-blur-3xl bg-black/30 rounded-[2rem] md:rounded-[3rem] p-6 md:p-12 border border-white/10 shadow-2xl flex flex-col gap-6 md:gap-10 transition-all duration-500 ease-out perspective-1000"
+      class="w-full max-w-[1400px] h-full flex flex-col md:grid md:grid-cols-12 gap-0 transition-all duration-700 ease-out"
       :class="[
-        colors?.glow,
-        isVisible ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-90 translate-y-10'
+        isVisible ? 'opacity-100' : 'opacity-0'
       ]"
-      @mousemove="handleMouseMove"
-      @mouseleave="handleMouseLeave"
     >
-      
-      <div class="flex justify-between items-start">
-        <div class="flex-1 pr-8">
-          <div class="mb-4 overflow-hidden">
-            <span 
-              class="inline-block px-4 py-1.5 rounded-full text-sm font-bold uppercase tracking-widest shadow-inner backdrop-blur-md transition-all duration-500 delay-75 transform"
-              :class="[
-                colors?.badge,
-                isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-              ]"
-            >
-              {{ tip.category }}
-            </span>
-          </div>
-          <h2 
-            class="text-4xl md:text-7xl font-extrabold tracking-tighter text-transparent bg-clip-text bg-gradient-to-r leading-tight transition-all duration-500 delay-100 transform"
+      <!-- Left Column: High-Impact Title & Category -->
+      <div class="md:col-span-7 flex flex-col justify-center border-b md:border-b-0 md:border-r border-white/10 p-6 md:p-12 bg-black/20">
+        <div class="mb-8 overflow-hidden">
+          <span 
+            class="inline-block px-0 py-1 text-xs font-black uppercase tracking-[0.3em] transition-all duration-700 delay-100 transform border-b-2"
             :class="[
-              colors?.gradient,
-              isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+              colors?.badge.replace('bg-', 'text-').replace('/10', '').replace('text-', 'border-'),
+              isVisible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'
             ]"
           >
-            {{ tip.title }}
-          </h2>
-        </div>
-        <div 
-          class="flex flex-col items-center rounded-full p-3 transition-all duration-500 delay-150 transform"
-          :class="isVisible ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'"
-        >
-          <UButton 
-            :icon="isVoted ? 'i-heroicons-star-solid' : 'i-heroicons-star'" 
-            variant="ghost" 
-            :color="isVoted ? 'yellow' : 'white'" 
-            size="xl" 
-            @click="toggleVote" 
-            class="hover:bg-white/20 rounded-full transition-colors duration-300" 
-            disabled
-          />
-          <span 
-             class="text-sm font-bold transition-colors duration-300"
-             :class="isVoted ? 'text-yellow-400' : 'text-gray-400'"
-          >
-            {{ tip.votes || 0 }}
+            {{ tip.category }}
           </span>
+        </div>
+        
+        <h2 
+          class="text-5xl md:text-[10rem] font-black tracking-[calc(-0.05em)] leading-[0.85] uppercase transition-all duration-700 delay-200 transform"
+          :class="[
+            colors?.gradient,
+            'text-transparent bg-clip-text bg-gradient-to-br',
+            isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
+          ]"
+        >
+          {{ tip.title }}
+        </h2>
+
+        <!-- Action Section (Floating in the asymmetric grid) -->
+        <div 
+          class="mt-12 flex items-center gap-6 transition-all duration-700 delay-500 transform"
+          :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'"
+        >
+          <div class="flex flex-col items-center">
+            <button 
+              @click="toggleVote"
+              class="group/btn flex items-center justify-center w-24 h-24 border border-white transition-all duration-300 hover:bg-white hover:text-black"
+              :aria-label="isVoted ? 'Remove Star' : 'Add Star'"
+            >
+              <UIcon 
+                :name="isVoted ? 'i-heroicons-star-solid' : 'i-heroicons-star'" 
+                class="w-8 h-8 transition-transform duration-500 group-hover/btn:scale-125"
+                :class="isVoted ? 'text-yellow-400' : 'text-white'"
+              />
+            </button>
+            <span class="mt-2 text-[10px] font-black tracking-widest uppercase opacity-40">Stars</span>
+          </div>
+          <div class="text-4xl font-black tabular-nums opacity-20 border-l border-white/10 pl-6 h-full flex items-center">
+            {{ String(tip.votes || 0).padStart(2, '0') }}
+          </div>
         </div>
       </div>
 
-      <div 
-        class="text-lg md:text-3xl font-light leading-relaxed text-gray-300 tracking-wide transition-all duration-500 delay-200 transform"
-        :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'"
-      >
-        <template v-for="(seg, i) in segments" :key="i">
-          <KeywordPopup v-if="seg.type === 'highlight' && seg.info" :text="seg.content" :info="seg.info" />
-          <span v-else-if="seg.type === 'bold'" class="text-yellow-200 font-semibold drop-shadow-sm px-1">{{ seg.content }}</span>
-          <span v-else-if="seg.type === 'italic'" class="italic text-gray-200 font-serif opacity-90">{{ seg.content }}</span>
-          <span v-else v-html="seg.content"></span>
-        </template>
+      <!-- Right Column: Description -->
+      <div class="md:col-span-5 flex flex-col justify-end p-6 md:p-12 bg-white/[0.02]">
+        <div 
+          class="text-xl md:text-3xl font-medium leading-[1.4] text-gray-400 tracking-tight transition-all duration-700 delay-300 transform max-w-xl self-end text-right"
+          :class="isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'"
+        >
+          <template v-for="(seg, i) in segments" :key="i">
+            <KeywordPopup v-if="seg.type === 'highlight' && seg.info" :text="seg.content" :info="seg.info" />
+            <span v-else-if="seg.type === 'bold'" class="text-white font-black underline decoration-[3px] decoration-primary-500 underline-offset-4 px-1">{{ seg.content }}</span>
+            <span v-else-if="seg.type === 'italic'" class="italic text-gray-200 font-serif opacity-90">{{ seg.content }}</span>
+            <span v-else v-html="seg.content"></span>
+          </template>
+        </div>
+        
+        <!-- Decorative Index -->
+        <div 
+          class="mt-12 text-[12rem] font-black leading-none opacity-[0.03] select-none pointer-events-none absolute -bottom-12 -right-12 transition-all duration-1000"
+          :class="isVisible ? 'translate-y-0 opacity-5' : 'translate-y-20 opacity-0'"
+        >
+          {{ String(index + 1).padStart(2, '0') }}
+        </div>
       </div>
       
     </div>

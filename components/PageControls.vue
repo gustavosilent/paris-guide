@@ -28,44 +28,34 @@ const toggleLanguage = () => {
 
 <template>
     <div 
-      class="fixed bottom-0 left-0 right-0 z-[100] p-4 bg-gradient-to-t from-black/90 to-transparent pointer-events-none flex justify-center pb-8 md:pb-4 transition-all duration-300"
-      :class="modelValue ? 'translate-y-24 opacity-0' : 'translate-y-0 opacity-100'"
+      class="fixed bottom-0 left-0 right-0 z-[100] pointer-events-none flex justify-end p-6 md:p-12 transition-all duration-500"
+      :class="modelValue ? 'translate-y-full opacity-0' : 'translate-y-0 opacity-100'"
     >
-      <div class="pointer-events-auto flex items-center gap-6 bg-white/10 backdrop-blur-xl border border-white/10 rounded-full px-6 py-2 shadow-2xl">
-          <UButton 
-            :icon="sortMode === 'relevant' ? 'i-heroicons-star' : 'i-heroicons-sparkles'"
-            variant="ghost"
-            color="white"
-            size="xl"
+      <div class="pointer-events-auto flex items-stretch gap-0 bg-black border border-white/10 shadow-[20px_20px_50px_rgba(0,0,0,0.5)]">
+          <button 
             @click="toggleSort"
-            :ui="{ rounded: 'rounded-full' }"
+            class="flex items-center justify-center p-4 hover:bg-white hover:text-black transition-all duration-300 border-r border-white/5"
             aria-label="Sort Order"
-          />
+          >
+            <UIcon :name="sortMode === 'relevant' ? 'i-heroicons-star' : 'i-heroicons-sparkles'" class="w-6 h-6" />
+          </button>
           
-          <div class="h-6 w-px bg-white/20"></div>
-
-          <UButton 
-            :label="language === 'ptbr' ? 'PT' : 'EN'"
-            variant="ghost"
-            color="white"
-            size="xl"
+          <button 
             @click="toggleLanguage"
-            :ui="{ rounded: 'rounded-full' }"
+            class="flex items-center justify-center px-6 py-4 text-xs font-black uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300 border-r border-white/5"
             aria-label="Language"
-          />
+          >
+            {{ language === 'ptbr' ? 'PT' : 'EN' }}
+          </button>
 
-          <div class="h-6 w-px bg-white/20"></div>
-
-          <UButton 
-            icon="i-heroicons-plus" 
-            variant="ghost"
-            color="white"
-            size="xl" 
+          <button 
             @click="emit('update:modelValue', true)"
-            :ui="{ rounded: 'rounded-full' }"
-            aria-label="Add Tip"
+            class="flex items-center justify-center p-4 hover:bg-white hover:text-black transition-all duration-300"
+            aria-label="Submit New Tip"
             disabled
-          />
+          >
+            <UIcon name="i-heroicons-plus" class="w-6 h-6" />
+          </button>
       </div>
     </div>
 </template>
